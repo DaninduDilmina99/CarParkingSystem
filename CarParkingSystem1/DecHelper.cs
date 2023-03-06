@@ -8,9 +8,7 @@ namespace CarParkingSystem1
 {
     internal class DecHelper
     {
-        public class ABC{
         
-        }
         
     }
 }
