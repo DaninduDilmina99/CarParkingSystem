@@ -29,17 +29,44 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.Label label3;
-            System.Windows.Forms.TextBox textpassword;
-            System.Windows.Forms.TextBox textemail;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.textpassword = new System.Windows.Forms.TextBox();
+            this.textemail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.buttonlogin = new System.Windows.Forms.Button();
             label3 = new System.Windows.Forms.Label();
-            textpassword = new System.Windows.Forms.TextBox();
-            textemail = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = System.Drawing.Color.Transparent;
+            label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label3.ForeColor = System.Drawing.Color.White;
+            label3.Location = new System.Drawing.Point(40, 143);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(79, 16);
+            label3.TabIndex = 2;
+            label3.Text = "Password: ";
+            // 
+            // textpassword
+            // 
+            this.textpassword.Location = new System.Drawing.Point(131, 143);
+            this.textpassword.Multiline = true;
+            this.textpassword.Name = "textpassword";
+            this.textpassword.PasswordChar = '*';
+            this.textpassword.Size = new System.Drawing.Size(122, 20);
+            this.textpassword.TabIndex = 3;
+            // 
+            // textemail
+            // 
+            this.textemail.Location = new System.Drawing.Point(131, 199);
+            this.textemail.Multiline = true;
+            this.textemail.Name = "textemail";
+            this.textemail.Size = new System.Drawing.Size(122, 20);
+            this.textemail.TabIndex = 5;
             // 
             // label1
             // 
@@ -65,33 +92,6 @@
             this.label2.Text = "System";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = System.Drawing.Color.Transparent;
-            label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label3.ForeColor = System.Drawing.Color.White;
-            label3.Location = new System.Drawing.Point(40, 143);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(79, 16);
-            label3.TabIndex = 2;
-            label3.Text = "Password: ";
-            // 
-            // textpassword
-            // 
-            textpassword.Location = new System.Drawing.Point(131, 143);
-            textpassword.Name = "textpassword";
-            textpassword.PasswordChar = '*';
-            textpassword.Size = new System.Drawing.Size(122, 20);
-            textpassword.TabIndex = 3;
-            // 
-            // textemail
-            // 
-            textemail.Location = new System.Drawing.Point(131, 199);
-            textemail.Name = "textemail";
-            textemail.Size = new System.Drawing.Size(122, 20);
-            textemail.TabIndex = 5;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -115,6 +115,7 @@
             this.buttonlogin.TabIndex = 6;
             this.buttonlogin.Text = "Login";
             this.buttonlogin.UseVisualStyleBackColor = false;
+            this.buttonlogin.Click += new System.EventHandler(this.buttonlogin_Click);
             // 
             // Form1
             // 
@@ -124,15 +125,16 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(292, 343);
             this.Controls.Add(this.buttonlogin);
-            this.Controls.Add(textemail);
+            this.Controls.Add(this.textemail);
             this.Controls.Add(this.label4);
-            this.Controls.Add(textpassword);
+            this.Controls.Add(this.textpassword);
             this.Controls.Add(label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,6 +146,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button buttonlogin;
+        private System.Windows.Forms.TextBox textpassword;
+        private System.Windows.Forms.TextBox textemail;
     }
 }
 

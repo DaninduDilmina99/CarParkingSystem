@@ -30,9 +30,9 @@ namespace CarParkingSystem1
 		
     #region Extensibility Method Definitions
     partial void OnCreated();
-    partial void InserttblAccount2(tblAccount2 instance);
-    partial void UpdatetblAccount2(tblAccount2 instance);
-    partial void DeletetblAccount2(tblAccount2 instance);
+    partial void InserttblAccount(tblAccount instance);
+    partial void UpdatetblAccount(tblAccount instance);
+    partial void DeletetblAccount(tblAccount instance);
     #endregion
 		
 		public DataClasses1DataContext() : 
@@ -65,17 +65,17 @@ namespace CarParkingSystem1
 			OnCreated();
 		}
 		
-		public System.Data.Linq.Table<tblAccount2> tblAccount2s
+		public System.Data.Linq.Table<tblAccount> tblAccounts
 		{
 			get
 			{
-				return this.GetTable<tblAccount2>();
+				return this.GetTable<tblAccount>();
 			}
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tblAccount")]
-	public partial class tblAccount2 : INotifyPropertyChanging, INotifyPropertyChanged
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tblAccounts")]
+	public partial class tblAccount : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
@@ -86,7 +86,7 @@ namespace CarParkingSystem1
 		
 		private string _Password;
 		
-		private string _Emai;
+		private string _Email;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -98,11 +98,11 @@ namespace CarParkingSystem1
     partial void OnUserNameChanged();
     partial void OnPasswordChanging(string value);
     partial void OnPasswordChanged();
-    partial void OnEmaiChanging(string value);
-    partial void OnEmaiChanged();
+    partial void OnEmailChanging(string value);
+    partial void OnEmailChanged();
     #endregion
 		
-		public tblAccount2()
+		public tblAccount()
 		{
 			OnCreated();
 		}
@@ -167,22 +167,22 @@ namespace CarParkingSystem1
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Emai", DbType="NVarChar(50)")]
-		public string Emai
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Email", DbType="NVarChar(50)")]
+		public string Email
 		{
 			get
 			{
-				return this._Emai;
+				return this._Email;
 			}
 			set
 			{
-				if ((this._Emai != value))
+				if ((this._Email != value))
 				{
-					this.OnEmaiChanging(value);
+					this.OnEmailChanging(value);
 					this.SendPropertyChanging();
-					this._Emai = value;
-					this.SendPropertyChanged("Emai");
-					this.OnEmaiChanged();
+					this._Email = value;
+					this.SendPropertyChanged("Email");
+					this.OnEmailChanged();
 				}
 			}
 		}
