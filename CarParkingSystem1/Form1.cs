@@ -33,6 +33,7 @@ namespace CarParkingSystem1
                         WelcomeScreen wc = new WelcomeScreen();
                         wc.Show();
                         this.Hide();
+
                     }
                 }
                 else
