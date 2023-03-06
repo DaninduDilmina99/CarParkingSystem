@@ -54,7 +54,6 @@
             // textpassword
             // 
             this.textpassword.Location = new System.Drawing.Point(131, 143);
-            this.textpassword.Multiline = true;
             this.textpassword.Name = "textpassword";
             this.textpassword.PasswordChar = '*';
             this.textpassword.Size = new System.Drawing.Size(122, 20);
@@ -63,7 +62,6 @@
             // textemail
             // 
             this.textemail.Location = new System.Drawing.Point(131, 199);
-            this.textemail.Multiline = true;
             this.textemail.Name = "textemail";
             this.textemail.Size = new System.Drawing.Size(122, 20);
             this.textemail.TabIndex = 5;
