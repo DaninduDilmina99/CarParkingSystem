@@ -58,6 +58,7 @@
             this.textpassword.PasswordChar = '*';
             this.textpassword.Size = new System.Drawing.Size(122, 20);
             this.textpassword.TabIndex = 3;
+            this.textpassword.TextChanged += new System.EventHandler(this.textpassword_TextChanged);
             // 
             // textemail
             // 

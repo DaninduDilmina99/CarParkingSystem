@@ -10,26 +10,18 @@ using System.Windows.Forms;
 
 namespace CarParkingSystem1
 {
-    public partial class WelcomeScreen : Form
+    public partial class SlotsForm : Form
     {
-        public WelcomeScreen()
+        public SlotsForm()
         {
             InitializeComponent();
         }
 
-        private void WelcomeScreen_Load(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
+            WelcomeScreen S = new WelcomeScreen();
+            S.Show();
+            this.Hide();
         }
     }
 }
