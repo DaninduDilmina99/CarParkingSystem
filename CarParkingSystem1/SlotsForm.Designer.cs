@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.Label label3;
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -38,6 +39,10 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.textlocation = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textsno = new System.Windows.Forms.TextBox();
+            label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -76,6 +81,10 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.textlocation);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.textsno);
+            this.panel1.Controls.Add(label3);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 112);
@@ -175,6 +184,45 @@
             this.button1.Text = "ADD";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // textlocation
+            // 
+            this.textlocation.Location = new System.Drawing.Point(8, 173);
+            this.textlocation.Name = "textlocation";
+            this.textlocation.Size = new System.Drawing.Size(122, 20);
+            this.textlocation.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(5, 154);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 16);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Location:";
+            // 
+            // textsno
+            // 
+            this.textsno.Location = new System.Drawing.Point(8, 122);
+            this.textsno.Name = "textsno";
+            this.textsno.PasswordChar = '*';
+            this.textsno.Size = new System.Drawing.Size(122, 20);
+            this.textsno.TabIndex = 7;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = System.Drawing.Color.Transparent;
+            label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label3.ForeColor = System.Drawing.Color.Black;
+            label3.Location = new System.Drawing.Point(5, 103);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(57, 16);
+            label3.TabIndex = 6;
+            label3.Text = "Slot No:";
+            // 
             // SlotsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -188,6 +236,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -206,5 +255,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textlocation;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textsno;
     }
 }
