@@ -190,7 +190,7 @@
             // 
             this.textlocation.Location = new System.Drawing.Point(8, 173);
             this.textlocation.Name = "textlocation";
-            this.textlocation.Size = new System.Drawing.Size(135, 20);
+            this.textlocation.Size = new System.Drawing.Size(120, 20);
             this.textlocation.TabIndex = 9;
             // 
             // label4
@@ -210,7 +210,7 @@
             this.textsno.Location = new System.Drawing.Point(8, 122);
             this.textsno.Name = "textsno";
             this.textsno.PasswordChar = '*';
-            this.textsno.Size = new System.Drawing.Size(135, 20);
+            this.textsno.Size = new System.Drawing.Size(120, 20);
             this.textsno.TabIndex = 7;
             // 
             // dataGridView1
