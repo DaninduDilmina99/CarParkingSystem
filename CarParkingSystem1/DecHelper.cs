@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace CarParkingSystem1
 {
-    internal class DecHelper
+    class DecHelper
     {
-        
         
     }
 }

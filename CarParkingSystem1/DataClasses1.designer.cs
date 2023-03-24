@@ -33,6 +33,9 @@ namespace CarParkingSystem1
     partial void InserttblAccount(tblAccount instance);
     partial void UpdatetblAccount(tblAccount instance);
     partial void DeletetblAccount(tblAccount instance);
+    partial void InserttblSlot(tblSlot instance);
+    partial void UpdatetblSlot(tblSlot instance);
+    partial void DeletetblSlot(tblSlot instance);
     #endregion
 		
 		public DataClasses1DataContext() : 
@@ -70,6 +73,14 @@ namespace CarParkingSystem1
 			get
 			{
 				return this.GetTable<tblAccount>();
+			}
+		}
+		
+		public System.Data.Linq.Table<tblSlot> tblSlots
+		{
+			get
+			{
+				return this.GetTable<tblSlot>();
 			}
 		}
 	}
@@ -183,6 +194,116 @@ namespace CarParkingSystem1
 					this._Email = value;
 					this.SendPropertyChanged("Email");
 					this.OnEmailChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tblSlots")]
+	public partial class tblSlot : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
+		
+		private string _Slot_No;
+		
+		private string _Location;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnSlot_NoChanging(string value);
+    partial void OnSlot_NoChanged();
+    partial void OnLocationChanging(string value);
+    partial void OnLocationChanged();
+    #endregion
+		
+		public tblSlot()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Slot_No", DbType="NVarChar(50)")]
+		public string Slot_No
+		{
+			get
+			{
+				return this._Slot_No;
+			}
+			set
+			{
+				if ((this._Slot_No != value))
+				{
+					this.OnSlot_NoChanging(value);
+					this.SendPropertyChanging();
+					this._Slot_No = value;
+					this.SendPropertyChanged("Slot_No");
+					this.OnSlot_NoChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Location", DbType="NVarChar(50)")]
+		public string Location
+		{
+			get
+			{
+				return this._Location;
+			}
+			set
+			{
+				if ((this._Location != value))
+				{
+					this.OnLocationChanging(value);
+					this.SendPropertyChanging();
+					this._Location = value;
+					this.SendPropertyChanged("Location");
+					this.OnLocationChanged();
 				}
 			}
 		}
