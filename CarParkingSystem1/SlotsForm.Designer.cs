@@ -39,13 +39,15 @@
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.labelid = new System.Windows.Forms.Label();
             this.textlocation = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textsno = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textsearch = new System.Windows.Forms.TextBox();
-            this.labelid = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             label3 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
@@ -142,6 +144,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "REPORT";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -212,6 +215,15 @@
             this.panel1.Size = new System.Drawing.Size(635, 289);
             this.panel1.TabIndex = 0;
             // 
+            // labelid
+            // 
+            this.labelid.AutoSize = true;
+            this.labelid.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelid.Location = new System.Drawing.Point(4, 27);
+            this.labelid.Name = "labelid";
+            this.labelid.Size = new System.Drawing.Size(0, 20);
+            this.labelid.TabIndex = 10;
+            // 
             // textlocation
             // 
             this.textlocation.Location = new System.Drawing.Point(8, 173);
@@ -252,6 +264,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.textsearch);
             this.panel2.Controls.Add(label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -268,14 +281,16 @@
             this.textsearch.TabIndex = 9;
             this.textsearch.TextChanged += new System.EventHandler(this.textsearch_TextChanged);
             // 
-            // labelid
+            // label2
             // 
-            this.labelid.AutoSize = true;
-            this.labelid.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelid.Location = new System.Drawing.Point(4, 27);
-            this.labelid.Name = "labelid";
-            this.labelid.Size = new System.Drawing.Size(0, 20);
-            this.labelid.TabIndex = 10;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.LightCoral;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(205, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(240, 35);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Car Slot Details";
             // 
             // SlotsForm
             // 
@@ -319,5 +334,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox textsearch;
         private System.Windows.Forms.Label labelid;
+        private System.Windows.Forms.Label label2;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

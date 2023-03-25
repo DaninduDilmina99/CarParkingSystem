@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DGVPrinterHelper;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -212,6 +213,27 @@ namespace CarParkingSystem1
                 MessageBox.Show(ex.Message, "Error!");
 
             }
+        }
+
+        //Report
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DGVPrinter p = new DGVPrinter();
+            p.printDocument = printDocument1;
+            p.Title = "Total Cars Capacity Report";
+            p.SubTitle = string.Format("Date: {0}", DateTime.Now);
+            p.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+
+            p.printDocument = printDocument1;
+            p.PageNumbers = true;
+
+            p.PageNumberInHeader = true;
+
+            p.PorportionalColumns = true;
+            p.HeaderCellAlignment = StringAlignment.Near;
+            p.Footer = "Car Parking System";
+            p.FooterSpacing = 15;
+            p.PrintDataGridView(dataGridView1);
         }
     }
 }
