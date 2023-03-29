@@ -45,8 +45,8 @@
             this.textsno = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textsearch = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.textsearch = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             label3 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
@@ -273,6 +273,17 @@
             this.panel2.Size = new System.Drawing.Size(635, 102);
             this.panel2.TabIndex = 1;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(205, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(240, 35);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Car Slot Details";
+            // 
             // textsearch
             // 
             this.textsearch.Location = new System.Drawing.Point(8, 80);
@@ -280,17 +291,6 @@
             this.textsearch.Size = new System.Drawing.Size(120, 20);
             this.textsearch.TabIndex = 9;
             this.textsearch.TextChanged += new System.EventHandler(this.textsearch_TextChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.LightCoral;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(205, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(240, 35);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Car Slot Details";
             // 
             // SlotsForm
             // 
