@@ -1,6 +1,6 @@
 ﻿namespace CarParkingSystem1
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.Label label3;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.textpassword = new System.Windows.Forms.TextBox();
             this.textemail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -116,7 +116,7 @@
             this.buttonlogin.UseVisualStyleBackColor = false;
             this.buttonlogin.Click += new System.EventHandler(this.buttonlogin_Click);
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -131,9 +131,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form1";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

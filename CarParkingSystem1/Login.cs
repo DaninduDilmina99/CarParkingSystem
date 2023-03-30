@@ -11,10 +11,10 @@ using System.Data.SqlClient;
 
 namespace CarParkingSystem1
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         DataClasses1DataContext db = new DataClasses1DataContext();
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
