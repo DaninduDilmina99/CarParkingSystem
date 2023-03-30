@@ -36,12 +36,12 @@ namespace CarParkingSystem1
     partial void InserttblSlot(tblSlot instance);
     partial void UpdatetblSlot(tblSlot instance);
     partial void DeletetblSlot(tblSlot instance);
-    partial void InserttblDeparture(tblDeparture instance);
-    partial void UpdatetblDeparture(tblDeparture instance);
-    partial void DeletetblDeparture(tblDeparture instance);
     partial void InserttblArrival(tblArrival instance);
     partial void UpdatetblArrival(tblArrival instance);
     partial void DeletetblArrival(tblArrival instance);
+    partial void InserttblDeparture(tblDeparture instance);
+    partial void UpdatetblDeparture(tblDeparture instance);
+    partial void DeletetblDeparture(tblDeparture instance);
     #endregion
 		
 		public DataClasses1DataContext() : 
@@ -90,19 +90,19 @@ namespace CarParkingSystem1
 			}
 		}
 		
-		public System.Data.Linq.Table<tblDeparture> tblDepartures
-		{
-			get
-			{
-				return this.GetTable<tblDeparture>();
-			}
-		}
-		
 		public System.Data.Linq.Table<tblArrival> tblArrivals
 		{
 			get
 			{
 				return this.GetTable<tblArrival>();
+			}
+		}
+		
+		public System.Data.Linq.Table<tblDeparture> tblDepartures
+		{
+			get
+			{
+				return this.GetTable<tblDeparture>();
 			}
 		}
 	}
@@ -351,212 +351,6 @@ namespace CarParkingSystem1
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tblDeparture")]
-	public partial class tblDeparture : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _ID;
-		
-		private string _Card_No;
-		
-		private string _Driver;
-		
-		private string _Type;
-		
-		private string _P_Time;
-		
-		private System.Nullable<decimal> _Amount;
-		
-		private System.Nullable<System.DateTime> _Departure_Time;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnIDChanging(int value);
-    partial void OnIDChanged();
-    partial void OnCard_NoChanging(string value);
-    partial void OnCard_NoChanged();
-    partial void OnDriverChanging(string value);
-    partial void OnDriverChanged();
-    partial void OnTypeChanging(string value);
-    partial void OnTypeChanged();
-    partial void OnP_TimeChanging(string value);
-    partial void OnP_TimeChanged();
-    partial void OnAmountChanging(System.Nullable<decimal> value);
-    partial void OnAmountChanged();
-    partial void OnDeparture_TimeChanging(System.Nullable<System.DateTime> value);
-    partial void OnDeparture_TimeChanged();
-    #endregion
-		
-		public tblDeparture()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int ID
-		{
-			get
-			{
-				return this._ID;
-			}
-			set
-			{
-				if ((this._ID != value))
-				{
-					this.OnIDChanging(value);
-					this.SendPropertyChanging();
-					this._ID = value;
-					this.SendPropertyChanged("ID");
-					this.OnIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Card_No", DbType="NVarChar(50)")]
-		public string Card_No
-		{
-			get
-			{
-				return this._Card_No;
-			}
-			set
-			{
-				if ((this._Card_No != value))
-				{
-					this.OnCard_NoChanging(value);
-					this.SendPropertyChanging();
-					this._Card_No = value;
-					this.SendPropertyChanged("Card_No");
-					this.OnCard_NoChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Driver", DbType="NVarChar(50)")]
-		public string Driver
-		{
-			get
-			{
-				return this._Driver;
-			}
-			set
-			{
-				if ((this._Driver != value))
-				{
-					this.OnDriverChanging(value);
-					this.SendPropertyChanging();
-					this._Driver = value;
-					this.SendPropertyChanged("Driver");
-					this.OnDriverChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Type", DbType="NVarChar(50)")]
-		public string Type
-		{
-			get
-			{
-				return this._Type;
-			}
-			set
-			{
-				if ((this._Type != value))
-				{
-					this.OnTypeChanging(value);
-					this.SendPropertyChanging();
-					this._Type = value;
-					this.SendPropertyChanged("Type");
-					this.OnTypeChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_P_Time", DbType="NVarChar(50)")]
-		public string P_Time
-		{
-			get
-			{
-				return this._P_Time;
-			}
-			set
-			{
-				if ((this._P_Time != value))
-				{
-					this.OnP_TimeChanging(value);
-					this.SendPropertyChanging();
-					this._P_Time = value;
-					this.SendPropertyChanged("P_Time");
-					this.OnP_TimeChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Amount", DbType="Decimal(18,0)")]
-		public System.Nullable<decimal> Amount
-		{
-			get
-			{
-				return this._Amount;
-			}
-			set
-			{
-				if ((this._Amount != value))
-				{
-					this.OnAmountChanging(value);
-					this.SendPropertyChanging();
-					this._Amount = value;
-					this.SendPropertyChanged("Amount");
-					this.OnAmountChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Departure_Time", DbType="DateTime")]
-		public System.Nullable<System.DateTime> Departure_Time
-		{
-			get
-			{
-				return this._Departure_Time;
-			}
-			set
-			{
-				if ((this._Departure_Time != value))
-				{
-					this.OnDeparture_TimeChanging(value);
-					this.SendPropertyChanging();
-					this._Departure_Time = value;
-					this.SendPropertyChanged("Departure_Time");
-					this.OnDeparture_TimeChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tblArrival")]
 	public partial class tblArrival : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -738,6 +532,212 @@ namespace CarParkingSystem1
 					this._A_Time = value;
 					this.SendPropertyChanged("A_Time");
 					this.OnA_TimeChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tblDeparture")]
+	public partial class tblDeparture : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
+		
+		private string _Car_No;
+		
+		private string _Driver;
+		
+		private string _Type;
+		
+		private string _P_Time;
+		
+		private System.Nullable<decimal> _Amount;
+		
+		private System.Nullable<System.DateTime> _Departure_Time;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnCar_NoChanging(string value);
+    partial void OnCar_NoChanged();
+    partial void OnDriverChanging(string value);
+    partial void OnDriverChanged();
+    partial void OnTypeChanging(string value);
+    partial void OnTypeChanged();
+    partial void OnP_TimeChanging(string value);
+    partial void OnP_TimeChanged();
+    partial void OnAmountChanging(System.Nullable<decimal> value);
+    partial void OnAmountChanged();
+    partial void OnDeparture_TimeChanging(System.Nullable<System.DateTime> value);
+    partial void OnDeparture_TimeChanged();
+    #endregion
+		
+		public tblDeparture()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Car_No", DbType="NVarChar(50)")]
+		public string Car_No
+		{
+			get
+			{
+				return this._Car_No;
+			}
+			set
+			{
+				if ((this._Car_No != value))
+				{
+					this.OnCar_NoChanging(value);
+					this.SendPropertyChanging();
+					this._Car_No = value;
+					this.SendPropertyChanged("Car_No");
+					this.OnCar_NoChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Driver", DbType="NVarChar(50)")]
+		public string Driver
+		{
+			get
+			{
+				return this._Driver;
+			}
+			set
+			{
+				if ((this._Driver != value))
+				{
+					this.OnDriverChanging(value);
+					this.SendPropertyChanging();
+					this._Driver = value;
+					this.SendPropertyChanged("Driver");
+					this.OnDriverChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Type", DbType="NVarChar(50)")]
+		public string Type
+		{
+			get
+			{
+				return this._Type;
+			}
+			set
+			{
+				if ((this._Type != value))
+				{
+					this.OnTypeChanging(value);
+					this.SendPropertyChanging();
+					this._Type = value;
+					this.SendPropertyChanged("Type");
+					this.OnTypeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_P_Time", DbType="NVarChar(50)")]
+		public string P_Time
+		{
+			get
+			{
+				return this._P_Time;
+			}
+			set
+			{
+				if ((this._P_Time != value))
+				{
+					this.OnP_TimeChanging(value);
+					this.SendPropertyChanging();
+					this._P_Time = value;
+					this.SendPropertyChanged("P_Time");
+					this.OnP_TimeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Amount", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> Amount
+		{
+			get
+			{
+				return this._Amount;
+			}
+			set
+			{
+				if ((this._Amount != value))
+				{
+					this.OnAmountChanging(value);
+					this.SendPropertyChanging();
+					this._Amount = value;
+					this.SendPropertyChanged("Amount");
+					this.OnAmountChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Departure_Time", DbType="DateTime")]
+		public System.Nullable<System.DateTime> Departure_Time
+		{
+			get
+			{
+				return this._Departure_Time;
+			}
+			set
+			{
+				if ((this._Departure_Time != value))
+				{
+					this.OnDeparture_TimeChanging(value);
+					this.SendPropertyChanging();
+					this._Departure_Time = value;
+					this.SendPropertyChanged("Departure_Time");
+					this.OnDeparture_TimeChanged();
 				}
 			}
 		}

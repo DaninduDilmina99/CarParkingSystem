@@ -61,6 +61,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClasses1.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Departure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Departure.Designer.cs">
+      <DependentUpon>Departure.cs</DependentUpon>
+    </Compile>
     <Compile Include="DGVPrinter.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -84,6 +90,9 @@
     </Compile>
     <EmbeddedResource Include="Arrival.resx">
       <DependentUpon>Arrival.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Departure.resx">
+      <DependentUpon>Departure.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

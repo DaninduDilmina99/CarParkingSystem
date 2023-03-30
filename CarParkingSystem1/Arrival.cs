@@ -201,14 +201,7 @@ namespace CarParkingSystem1
 
         private void textsearch_TextChanged(object sender, EventArgs e)
         {
-            if (textsearch.Text == "")
-            {
-                load();
-            }
-            else
-            {
-                searchdata();
-            }
+
         }
 
         public void searchdata()
