@@ -123,5 +123,18 @@ namespace CarParkingSystem1
                 MessageBox.Show(ex.Message, "Error!");
             }
         }
+
+        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int indexrow = e.RowIndex;
+            labelid1.Text = dataGridView1.Rows[indexrow].Cells[0].Value.ToString();
+            lbldtime.Text = dataGridView1.Rows[indexrow].Cells[6].Value.ToString();
+            lblpfee.Text = dataGridView1.Rows[indexrow].Cells[5].Value.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

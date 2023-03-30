@@ -58,7 +58,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.textsearch = new System.Windows.Forms.TextBox();
-            this.lbldtm = new System.Windows.Forms.Label();
+            this.lbldtime = new System.Windows.Forms.Label();
             this.lblpfee = new System.Windows.Forms.Label();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -155,6 +155,7 @@
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -269,12 +270,13 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick);
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.textsearch);
-            this.panel2.Controls.Add(this.lbldtm);
+            this.panel2.Controls.Add(this.lbldtime);
             this.panel2.Controls.Add(this.lblpfee);
             this.panel2.Controls.Add(label7);
             this.panel2.Controls.Add(this.labelid1);
@@ -295,12 +297,12 @@
             resources.ApplyResources(this.textsearch, "textsearch");
             this.textsearch.Name = "textsearch";
             // 
-            // lbldtm
+            // lbldtime
             // 
-            resources.ApplyResources(this.lbldtm, "lbldtm");
-            this.lbldtm.BackColor = System.Drawing.Color.Transparent;
-            this.lbldtm.ForeColor = System.Drawing.Color.Black;
-            this.lbldtm.Name = "lbldtm";
+            resources.ApplyResources(this.lbldtime, "lbldtime");
+            this.lbldtime.BackColor = System.Drawing.Color.Transparent;
+            this.lbldtime.ForeColor = System.Drawing.Color.Black;
+            this.lbldtime.Name = "lbldtime";
             // 
             // lblpfee
             // 
@@ -357,7 +359,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textsearch;
-        private System.Windows.Forms.Label lbldtm;
+        private System.Windows.Forms.Label lbldtime;
         private System.Windows.Forms.Label lblpfee;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
