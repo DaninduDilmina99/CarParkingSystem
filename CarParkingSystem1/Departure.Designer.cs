@@ -141,6 +141,7 @@
             resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -148,6 +149,7 @@
             resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -296,6 +298,7 @@
             // 
             resources.ApplyResources(this.textsearch, "textsearch");
             this.textsearch.Name = "textsearch";
+            this.textsearch.TextChanged += new System.EventHandler(this.textsearch_TextChanged);
             // 
             // lbldtime
             // 

@@ -115,11 +115,7 @@ namespace CarParkingSystem1
 
 
                     if (MessageBox.Show("Do you want to Edit Record!", "Edit", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == System.Windows.Forms.DialogResult.Yes)
-                    {
-                        string sno = textcar.Text;
-                        var chk = db.tblArrivals.Where(o => o.Car_No == sno).FirstOrDefault();
-                        if (chk == null)
-                        {
+                    {  
                             int st = Convert.ToInt32(labelid.Text);
                             var s = db.tblArrivals.Where(o => o.ID == st).FirstOrDefault();
                             s.Driver_Name = textdriver.Text;
@@ -130,13 +126,7 @@ namespace CarParkingSystem1
                             s.A_Time = DateTime.Now;
                             db.SubmitChanges();
                             MessageBox.Show("Data Update!");
-                            load();
-                        }
-
-                        else
-                        {
-                            MessageBox.Show("This Car No Already Added!");
-                        }
+                            load();  
                     }
                 }
                 else
@@ -201,30 +191,51 @@ namespace CarParkingSystem1
 
         private void textsearch_TextChanged(object sender, EventArgs e)
         {
-
-        }
-
-        public void searchdata()
-        {
-
-            try
+            if (textsearch.Text == "")
             {
-                if (textsearch.Text != null)
+                load1();
+            }
+            else
+            {
+                //searchdata();
+                var chk1 = db.tblArrivals.Where(s =>s.Car_No == textsearch.Text || s.Driver_Name == textsearch.Text || s.Category == textsearch.Text).ToList();
+                if (chk1 != null)
                 {
-                    string sk = textsearch.Text;
-                    var chk = db.tblArrivals.Where(o => o.Driver_Name == sk || o.Car_No == sk || o.Category == sk ).ToList();
-                    if (chk != null)
-                    {
-                        dataGridView1.DataSource = chk;
+                     dataGridView1.DataSource = chk1;
 
-                    }
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error!");
 
             }
         }
+
+        //public void searchdata()
+        //{
+
+            
+        //    {
+        //        if (textsearch.Text != null)
+        //        {
+        //            string sk = textsearch.Text;
+        //            //var chk = db.tblArrivals.Where(o => o.Driver_Name == sk || o.Car_No == sk || o.Category == sk ).ToList();
+        //            //if (chk != null)
+        //            //{
+        //            //    dataGridView1.DataSource = chk;
+
+        //            //}
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message, "Error!");
+
+        //    }
+        //}
+
+        private void load1()
+        {
+            var ld = db.tblArrivals.ToList();
+            dataGridView1.DataSource = ld;
+        }
+
     }
 }

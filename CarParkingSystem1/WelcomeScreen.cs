@@ -29,13 +29,36 @@ namespace CarParkingSystem1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Arrival a  = new Arrival();
+            a.Show();
+            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             Login w = new Login();
             w.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SlotsForm f = new SlotsForm();
+            f.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Departure d = new Departure();
+            d.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Reservation r = new Reservation();
+            r.Show();
             this.Hide();
         }
     }

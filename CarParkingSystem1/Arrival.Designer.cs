@@ -51,15 +51,15 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.textstime = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textsearch = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             label3 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             label5 = new System.Windows.Forms.Label();
@@ -177,9 +177,9 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(205, 6);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(281, 35);
+            this.label2.Size = new System.Drawing.Size(148, 35);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Car Arrival Details";
+            this.label2.Text = "ARRIVAL";
             // 
             // label4
             // 
@@ -337,6 +337,18 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 12;
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.BackColor = System.Drawing.Color.White;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Hourly",
+            "Daily"});
+            this.checkedListBox1.Location = new System.Drawing.Point(9, 139);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(118, 34);
+            this.checkedListBox1.TabIndex = 11;
+            // 
             // textstime
             // 
             this.textstime.Location = new System.Drawing.Point(9, 211);
@@ -367,6 +379,18 @@
             this.label9.Size = new System.Drawing.Size(75, 16);
             this.label9.TabIndex = 8;
             this.label9.Text = "Stay Time:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(5, 120);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(124, 16);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Parking Category:";
             // 
             // panel2
             // 
@@ -429,30 +453,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(884, 411);
             this.tableLayoutPanel1.TabIndex = 1;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(5, 120);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 16);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Parking Category:";
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.White;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "Hourly",
-            "Daily"});
-            this.checkedListBox1.Location = new System.Drawing.Point(9, 139);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(118, 34);
-            this.checkedListBox1.TabIndex = 11;
             // 
             // Arrival
             // 
