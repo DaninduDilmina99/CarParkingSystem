@@ -96,5 +96,24 @@ namespace CarParkingSystem1
             i.Show();
             this.Hide();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            WelcomeScreen S = new WelcomeScreen();
+            S.Show();
+            this.Hide();
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Login S = new Login();
+            S.Show();
+            this.Hide();
+        }
     }
 }

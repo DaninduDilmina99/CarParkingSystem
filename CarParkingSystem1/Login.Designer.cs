@@ -42,10 +42,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = System.Drawing.Color.Transparent;
+            label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label3.ForeColor = System.Drawing.Color.White;
-            label3.Location = new System.Drawing.Point(40, 143);
+            label3.Location = new System.Drawing.Point(40, 150);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(79, 16);
             label3.TabIndex = 2;
@@ -53,7 +53,9 @@
             // 
             // textpassword
             // 
-            this.textpassword.Location = new System.Drawing.Point(131, 143);
+            this.textpassword.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.textpassword.ForeColor = System.Drawing.Color.White;
+            this.textpassword.Location = new System.Drawing.Point(131, 150);
             this.textpassword.Name = "textpassword";
             this.textpassword.PasswordChar = '*';
             this.textpassword.Size = new System.Drawing.Size(122, 20);
@@ -62,7 +64,9 @@
             // 
             // textemail
             // 
-            this.textemail.Location = new System.Drawing.Point(131, 199);
+            this.textemail.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.textemail.ForeColor = System.Drawing.Color.White;
+            this.textemail.Location = new System.Drawing.Point(131, 124);
             this.textemail.Name = "textemail";
             this.textemail.Size = new System.Drawing.Size(122, 20);
             this.textemail.TabIndex = 5;
@@ -72,7 +76,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.LightCoral;
             this.label1.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(61, 9);
+            this.label1.Location = new System.Drawing.Point(61, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(173, 33);
             this.label1.TabIndex = 0;
@@ -84,7 +88,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.RosyBrown;
             this.label2.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(89, 42);
+            this.label2.Location = new System.Drawing.Point(89, 60);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(115, 33);
             this.label2.TabIndex = 1;
@@ -94,10 +98,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(48, 203);
+            this.label4.Location = new System.Drawing.Point(40, 128);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 16);
             this.label4.TabIndex = 4;

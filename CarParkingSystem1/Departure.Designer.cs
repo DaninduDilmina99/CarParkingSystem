@@ -33,6 +33,7 @@
             System.Windows.Forms.Label label7;
             System.Windows.Forms.Label label5;
             System.Windows.Forms.Label label1;
+            System.Windows.Forms.Label label6;
             this.labelid1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -66,6 +67,7 @@
             label7 = new System.Windows.Forms.Label();
             label5 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
+            label6 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -137,7 +139,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Gold;
+            this.button4.BackColor = System.Drawing.SystemColors.AppWorkspace;
             resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = false;
@@ -145,7 +147,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
+            this.button3.BackColor = System.Drawing.SystemColors.AppWorkspace;
             resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = false;
@@ -153,7 +155,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
+            this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = false;
@@ -161,7 +163,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
+            this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
@@ -207,7 +209,7 @@
             // labelptype
             // 
             resources.ApplyResources(this.labelptype, "labelptype");
-            this.labelptype.BackColor = System.Drawing.Color.IndianRed;
+            this.labelptype.BackColor = System.Drawing.Color.Transparent;
             this.labelptype.ForeColor = System.Drawing.Color.Black;
             this.labelptype.Name = "labelptype";
             // 
@@ -221,7 +223,7 @@
             // labelptime
             // 
             resources.ApplyResources(this.labelptime, "labelptime");
-            this.labelptime.BackColor = System.Drawing.Color.IndianRed;
+            this.labelptime.BackColor = System.Drawing.Color.Transparent;
             this.labelptime.ForeColor = System.Drawing.Color.Black;
             this.labelptime.Name = "labelptime";
             // 
@@ -246,7 +248,7 @@
             // labeldname
             // 
             resources.ApplyResources(this.labeldname, "labeldname");
-            this.labeldname.BackColor = System.Drawing.Color.IndianRed;
+            this.labeldname.BackColor = System.Drawing.Color.Transparent;
             this.labeldname.ForeColor = System.Drawing.Color.Black;
             this.labeldname.Name = "labeldname";
             // 
@@ -282,6 +284,7 @@
             this.panel2.Controls.Add(this.lblpfee);
             this.panel2.Controls.Add(label7);
             this.panel2.Controls.Add(this.labelid1);
+            this.panel2.Controls.Add(label6);
             this.panel2.Controls.Add(label5);
             this.panel2.Controls.Add(label1);
             resources.ApplyResources(this.panel2, "panel2");
@@ -291,7 +294,7 @@
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Name = "label2";
             // 
             // textsearch
@@ -314,13 +317,20 @@
             this.lblpfee.ForeColor = System.Drawing.Color.Black;
             this.lblpfee.Name = "lblpfee";
             // 
+            // label6
+            // 
+            resources.ApplyResources(label6, "label6");
+            label6.BackColor = System.Drawing.Color.Transparent;
+            label6.ForeColor = System.Drawing.Color.Black;
+            label6.Name = "label6";
+            // 
             // Departure
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.Controls.Add(this.tableLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Departure";
             this.Load += new System.EventHandler(this.Departure_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

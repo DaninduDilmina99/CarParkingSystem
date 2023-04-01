@@ -162,7 +162,7 @@
     <value>Tahoma, 11.25pt, style=Bold</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 79</value>
+    <value>398, 60</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 18</value>
@@ -195,7 +195,7 @@
     <value>Tahoma, 11.25pt, style=Bold</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 55</value>
+    <value>231, 59</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 18</value>
@@ -216,7 +216,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <metadata name="label1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -249,7 +249,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="labelid1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -307,7 +307,7 @@
     <value>5</value>
   </data>
   <data name="button5.Text" xml:space="preserve">
-    <value>Exit</value>
+    <value>EXIT</value>
   </data>
   <data name="&gt;&gt;button5.Name" xml:space="preserve">
     <value>button5</value>
@@ -501,24 +501,6 @@
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="labelptype.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelptype.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
-  </data>
-  <data name="labelptype.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
-  </data>
-  <data name="labelptype.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 16</value>
-  </data>
-  <data name="labelptype.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="labelptype.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
   <data name="&gt;&gt;labelptype.Name" xml:space="preserve">
     <value>labelptype</value>
   </data>
@@ -531,24 +513,6 @@
   <data name="&gt;&gt;labelptype.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 47</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 16</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Park Time:</value>
-  </data>
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
   </data>
@@ -560,24 +524,6 @@
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="labelptime.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelptime.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
-  </data>
-  <data name="labelptime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 67</value>
-  </data>
-  <data name="labelptime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 16</value>
-  </data>
-  <data name="labelptime.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="labelptime.Text" xml:space="preserve">
-    <value>p.time</value>
   </data>
   <data name="&gt;&gt;labelptime.Name" xml:space="preserve">
     <value>labelptime</value>
@@ -697,13 +643,10 @@
     <value>102, 67</value>
   </data>
   <data name="labeldname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 16</value>
+    <value>0, 16</value>
   </data>
   <data name="labeldname.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
-  </data>
-  <data name="labeldname.Text" xml:space="preserve">
-    <value>time</value>
   </data>
   <data name="&gt;&gt;labeldname.Name" xml:space="preserve">
     <value>labeldname</value>
@@ -832,7 +775,7 @@
     <value>Tahoma, 21.75pt, style=Bold</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 6</value>
+    <value>270, 14</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 35</value>
@@ -883,16 +826,16 @@
     <value>Tahoma, 11.25pt, style=Bold</value>
   </data>
   <data name="lbldtime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>337, 79</value>
+    <value>398, 78</value>
   </data>
   <data name="lbldtime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 18</value>
+    <value>53, 18</value>
   </data>
   <data name="lbldtime.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="lbldtime.Text" xml:space="preserve">
-    <value>time</value>
+    <value>00:00</value>
   </data>
   <data name="&gt;&gt;lbldtime.Name" xml:space="preserve">
     <value>lbldtime</value>
@@ -913,16 +856,16 @@
     <value>Tahoma, 11.25pt, style=Bold</value>
   </data>
   <data name="lblpfee.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 55</value>
+    <value>273, 77</value>
   </data>
   <data name="lblpfee.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 18</value>
+    <value>53, 18</value>
   </data>
   <data name="lblpfee.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="lblpfee.Text" xml:space="preserve">
-    <value>0 </value>
+    <value>00.00</value>
   </data>
   <data name="&gt;&gt;lblpfee.Name" xml:space="preserve">
     <value>lblpfee</value>
@@ -935,6 +878,42 @@
   </data>
   <data name="&gt;&gt;lblpfee.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <metadata name="label6.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 77</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 18</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Rs. </value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1019,6 +998,96 @@
   </data>
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,26.58371,Percent,73.41629" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="labelptype.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelptype.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelptype.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 16</value>
+  </data>
+  <data name="labelptype.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="labelptype.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelptype.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;labelptype.Name" xml:space="preserve">
+    <value>labelptype</value>
+  </data>
+  <data name="&gt;&gt;labelptype.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelptype.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelptype.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 47</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Park Time:</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelptime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelptime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelptime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="labelptime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="labelptime.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelptime.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="&gt;&gt;labelptime.Name" xml:space="preserve">
+    <value>labelptime</value>
+  </data>
+  <data name="&gt;&gt;labelptime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelptime.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelptime.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

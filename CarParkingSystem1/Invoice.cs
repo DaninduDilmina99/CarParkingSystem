@@ -85,5 +85,19 @@ namespace CarParkingSystem1
         {
             e.Graphics.DrawImage(bitmap, 0, 0);
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Reservation S = new Reservation();
+            S.Show();
+            this.Hide();
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Login S = new Login();
+            S.Show();
+            this.Hide();
+        }
     }
 }

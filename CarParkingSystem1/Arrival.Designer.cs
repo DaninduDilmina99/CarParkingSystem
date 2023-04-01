@@ -103,7 +103,7 @@
             label5.BackColor = System.Drawing.Color.Transparent;
             label5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label5.ForeColor = System.Drawing.Color.Black;
-            label5.Location = new System.Drawing.Point(208, 55);
+            label5.Location = new System.Drawing.Point(173, 61);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(68, 18);
             label5.TabIndex = 8;
@@ -115,7 +115,7 @@
             label6.BackColor = System.Drawing.Color.Transparent;
             label6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label6.ForeColor = System.Drawing.Color.Black;
-            label6.Location = new System.Drawing.Point(388, 53);
+            label6.Location = new System.Drawing.Point(311, 61);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(75, 18);
             label6.TabIndex = 8;
@@ -127,7 +127,7 @@
             label7.BackColor = System.Drawing.Color.Transparent;
             label7.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label7.ForeColor = System.Drawing.Color.Black;
-            label7.Location = new System.Drawing.Point(208, 79);
+            label7.Location = new System.Drawing.Point(444, 61);
             label7.Name = "label7";
             label7.Size = new System.Drawing.Size(109, 18);
             label7.TabIndex = 8;
@@ -139,7 +139,7 @@
             this.lblcarno.BackColor = System.Drawing.Color.Transparent;
             this.lblcarno.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcarno.ForeColor = System.Drawing.Color.Black;
-            this.lblcarno.Location = new System.Drawing.Point(313, 55);
+            this.lblcarno.Location = new System.Drawing.Point(241, 61);
             this.lblcarno.Name = "lblcarno";
             this.lblcarno.Size = new System.Drawing.Size(22, 18);
             this.lblcarno.TabIndex = 8;
@@ -151,7 +151,7 @@
             this.lbltotal.BackColor = System.Drawing.Color.Transparent;
             this.lbltotal.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltotal.ForeColor = System.Drawing.Color.Black;
-            this.lbltotal.Location = new System.Drawing.Point(462, 53);
+            this.lbltotal.Location = new System.Drawing.Point(385, 61);
             this.lbltotal.Name = "lbltotal";
             this.lbltotal.Size = new System.Drawing.Size(22, 18);
             this.lbltotal.TabIndex = 8;
@@ -163,19 +163,19 @@
             this.lblarrivaltm.BackColor = System.Drawing.Color.Transparent;
             this.lblarrivaltm.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblarrivaltm.ForeColor = System.Drawing.Color.Black;
-            this.lblarrivaltm.Location = new System.Drawing.Point(313, 79);
+            this.lblarrivaltm.Location = new System.Drawing.Point(549, 61);
             this.lblarrivaltm.Name = "lblarrivaltm";
-            this.lblarrivaltm.Size = new System.Drawing.Size(22, 18);
+            this.lblarrivaltm.Size = new System.Drawing.Size(53, 18);
             this.lblarrivaltm.TabIndex = 8;
-            this.lblarrivaltm.Text = "0 ";
+            this.lblarrivaltm.Text = "00:00";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(205, 6);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(281, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(148, 35);
             this.label2.TabIndex = 1;
@@ -221,13 +221,13 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(222, 77);
             this.button5.TabIndex = 5;
-            this.button5.Text = "Exit";
+            this.button5.Text = "EXIT";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Gold;
+            this.button4.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(3, 243);
@@ -240,7 +240,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
+            this.button3.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(3, 163);
@@ -253,7 +253,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
+            this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(3, 83);
@@ -282,7 +282,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
+            this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(3, 3);
@@ -411,6 +411,7 @@
             // 
             // textsearch
             // 
+            this.textsearch.ForeColor = System.Drawing.Color.White;
             this.textsearch.Location = new System.Drawing.Point(8, 80);
             this.textsearch.Name = "textsearch";
             this.textsearch.Size = new System.Drawing.Size(120, 20);
@@ -461,6 +462,7 @@
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(884, 411);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Arrival";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Arrival";

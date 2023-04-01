@@ -42,15 +42,17 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.labelamount = new System.Windows.Forms.Label();
+            this.labeldtime = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.labeltype = new System.Windows.Forms.Label();
             this.labelcarno = new System.Windows.Forms.Label();
             this.labeldname = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBoxcarno = new System.Windows.Forms.ComboBox();
-            this.labeltype = new System.Windows.Forms.Label();
-            this.labeldtime = new System.Windows.Forms.Label();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.exit = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.Button();
             label3 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
@@ -84,7 +86,7 @@
             label1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label1.ForeColor = System.Drawing.Color.Black;
             label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            label1.Location = new System.Drawing.Point(279, 6);
+            label1.Location = new System.Drawing.Point(279, 9);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(69, 18);
             label1.TabIndex = 8;
@@ -130,6 +132,33 @@
             label5.Text = "Car No:";
             label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = System.Drawing.Color.Transparent;
+            label8.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
+            label8.ForeColor = System.Drawing.Color.Black;
+            label8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            label8.Location = new System.Drawing.Point(681, 95);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(49, 18);
+            label8.TabIndex = 17;
+            label8.Text = "Type:";
+            label8.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = System.Drawing.Color.Transparent;
+            label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
+            label9.ForeColor = System.Drawing.Color.Black;
+            label9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            label9.Location = new System.Drawing.Point(320, 102);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(129, 18);
+            label9.TabIndex = 8;
+            label9.Text = "Departure Time:";
+            // 
             // printDocument1
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
@@ -139,9 +168,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(276, 30);
+            this.label2.Location = new System.Drawing.Point(252, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(358, 35);
             this.label2.TabIndex = 1;
@@ -162,7 +191,10 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.SkyBlue;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.exit);
+            this.panel1.Controls.Add(this.back);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(label6);
             this.panel1.Controls.Add(this.labelamount);
@@ -199,6 +231,19 @@
             this.labelamount.TabIndex = 8;
             this.labelamount.Text = "Rs. 00.00";
             // 
+            // labeldtime
+            // 
+            this.labeldtime.AutoSize = true;
+            this.labeldtime.BackColor = System.Drawing.Color.Transparent;
+            this.labeldtime.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
+            this.labeldtime.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labeldtime.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.labeldtime.Location = new System.Drawing.Point(455, 102);
+            this.labeldtime.Name = "labeldtime";
+            this.labeldtime.Size = new System.Drawing.Size(53, 18);
+            this.labeldtime.TabIndex = 8;
+            this.labeldtime.Text = "00:00";
+            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 1;
@@ -216,6 +261,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.SkyBlue;
             this.panel2.Controls.Add(label8);
             this.panel2.Controls.Add(this.labeltype);
             this.panel2.Controls.Add(label5);
@@ -227,10 +273,24 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(878, 131);
             this.panel2.TabIndex = 1;
+            // 
+            // labeltype
+            // 
+            this.labeltype.AutoSize = true;
+            this.labeltype.BackColor = System.Drawing.Color.Transparent;
+            this.labeltype.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
+            this.labeltype.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labeltype.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.labeltype.Location = new System.Drawing.Point(736, 95);
+            this.labeltype.Name = "labeltype";
+            this.labeltype.Size = new System.Drawing.Size(106, 18);
+            this.labeltype.TabIndex = 18;
+            this.labeltype.Text = "Hourly/Daily";
             // 
             // labelcarno
             // 
@@ -260,9 +320,10 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkOrchid;
+            this.button1.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(490, -1);
+            this.button1.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button1.Location = new System.Drawing.Point(490, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 35);
             this.button1.TabIndex = 14;
@@ -273,64 +334,11 @@
             // comboBoxcarno
             // 
             this.comboBoxcarno.FormattingEnabled = true;
-            this.comboBoxcarno.Location = new System.Drawing.Point(354, 6);
+            this.comboBoxcarno.Location = new System.Drawing.Point(354, 9);
             this.comboBoxcarno.Name = "comboBoxcarno";
             this.comboBoxcarno.Size = new System.Drawing.Size(121, 21);
             this.comboBoxcarno.TabIndex = 13;
             this.comboBoxcarno.SelectedIndexChanged += new System.EventHandler(this.comboBoxcarno_SelectedIndexChanged);
-            // 
-            // labeltype
-            // 
-            this.labeltype.AutoSize = true;
-            this.labeltype.BackColor = System.Drawing.Color.Transparent;
-            this.labeltype.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
-            this.labeltype.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labeltype.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labeltype.Location = new System.Drawing.Point(736, 95);
-            this.labeltype.Name = "labeltype";
-            this.labeltype.Size = new System.Drawing.Size(106, 18);
-            this.labeltype.TabIndex = 18;
-            this.labeltype.Text = "Hourly/Daily";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = System.Drawing.Color.Transparent;
-            label8.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
-            label8.ForeColor = System.Drawing.Color.Black;
-            label8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            label8.Location = new System.Drawing.Point(681, 95);
-            label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(49, 18);
-            label8.TabIndex = 17;
-            label8.Text = "Type:";
-            label8.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // labeldtime
-            // 
-            this.labeldtime.AutoSize = true;
-            this.labeldtime.BackColor = System.Drawing.Color.Transparent;
-            this.labeldtime.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
-            this.labeldtime.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labeldtime.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labeldtime.Location = new System.Drawing.Point(494, 102);
-            this.labeldtime.Name = "labeldtime";
-            this.labeldtime.Size = new System.Drawing.Size(53, 18);
-            this.labeldtime.TabIndex = 8;
-            this.labeldtime.Text = "00:00";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = System.Drawing.Color.Transparent;
-            label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
-            label9.ForeColor = System.Drawing.Color.Black;
-            label9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            label9.Location = new System.Drawing.Point(359, 102);
-            label9.Name = "label9";
-            label9.Size = new System.Drawing.Size(129, 18);
-            label9.TabIndex = 8;
-            label9.Text = "Departure Time:";
             // 
             // printPreviewDialog1
             // 
@@ -343,6 +351,30 @@
             this.printPreviewDialog1.Visible = false;
             this.printPreviewDialog1.Load += new System.EventHandler(this.printPreviewDialog1_Load);
             // 
+            // exit
+            // 
+            this.exit.BackColor = System.Drawing.Color.Red;
+            this.exit.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exit.Location = new System.Drawing.Point(780, 223);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(87, 35);
+            this.exit.TabIndex = 12;
+            this.exit.Text = "EXIT";
+            this.exit.UseVisualStyleBackColor = false;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Red;
+            this.back.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.Location = new System.Drawing.Point(8, 223);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(87, 35);
+            this.back.TabIndex = 13;
+            this.back.Text = "BACK";
+            this.back.UseVisualStyleBackColor = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // Invoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -350,7 +382,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(884, 411);
             this.Controls.Add(this.tableLayoutPanel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Invoice";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Invoice";
@@ -382,5 +414,7 @@
         private System.Windows.Forms.Label labeltype;
         private System.Windows.Forms.Label labeldtime;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.Button exit;
+        private System.Windows.Forms.Button back;
     }
 }
