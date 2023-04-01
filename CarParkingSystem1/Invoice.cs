@@ -88,15 +88,15 @@ namespace CarParkingSystem1
 
         private void back_Click(object sender, EventArgs e)
         {
-            Reservation S = new Reservation();
-            S.Show();
+            Reservation r = new Reservation();
+            r.Show();
             this.Hide();
         }
 
         private void exit_Click(object sender, EventArgs e)
         {
-            Login S = new Login();
-            S.Show();
+            Login et = new Login();
+            et.Show();
             this.Hide();
         }
     }

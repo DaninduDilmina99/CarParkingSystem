@@ -16,7 +16,7 @@ namespace CarParkingSystem1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Arrival());
+            Application.Run(new Login());
         }
     }
 }
