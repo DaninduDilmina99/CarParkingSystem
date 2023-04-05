@@ -87,7 +87,6 @@ namespace CarParkingSystem1
             p.Footer = "Car Parking System";
             p.FooterSpacing = 15;
             p.PrintDataGridView(dataGridView1);
-
         }
 
         private void button1_Click(object sender, EventArgs e)
