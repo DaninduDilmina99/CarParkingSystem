@@ -22,33 +22,61 @@ namespace CarParkingSystem1
 
         private void buttonlogin_Click(object sender, EventArgs e)
         {
-            try
+            //try
+            //{
+            //    if (textpassword.Text != null & textemail.Text != null)
+            //    {
+            //        var item = db.tblAccounts.Where(s => s.Password == textpassword.Text && s.Email == textemail.Text).FirstOrDefault();  
+            //        if (item != null)
+            //        {
+
+            //           Splash wc = new Splash();
+            //            wc.Show();
+            //            this.Hide();
+
+
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show("Your Password or Email not exits! Create Your Account...");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Password or Email Incorrect!!, TRY AGAIN!");
+            //    }
+            //}catch(Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message, "Error");
+            //}
+
+
+            if (textemail.Text == ""  || textpassword.Text =="")
             {
-                if (textpassword.Text != null & textemail.Text != null)
+                MessageBox.Show("Enter your Email and Password");
+            }
+            else
+            {
+                var item = db.tblAccounts.Where(s =>  s.Email == textemail.Text && s.Password == textpassword.Text).FirstOrDefault();
+
+                if (textemail.Text == "Admin" || textpassword.Text == "A123")
                 {
-                    var item = db.tblAccounts.Where(s => s.Password == textpassword.Text && s.Email == textemail.Text).FirstOrDefault();  
-                    if (item != null)
-                    {
+                    
 
-                        WelcomeScreen wc = new WelcomeScreen();
-                        wc.Show();
-                        this.Hide();
-
-
-                    }
-                    else
-                    {
-                        MessageBox.Show("Your Password or Email not exits! Create Your Account...");
-                    }
+                    Splash s = new Splash();
+                    s.Show();
+                    this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("Password or Email Incorrect!!, TRY AGAIN!");
+                    MessageBox.Show("Invalied Email or Password!, TRY AGAIN!!");
                 }
-            }catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error");
+                    
+
             }
+
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -67,6 +95,21 @@ namespace CarParkingSystem1
         }
 
         private void textpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CheckbxShowPas_CheckedChanged(object sender, EventArgs e)
         {
 
         }
