@@ -12,6 +12,8 @@ namespace CarParkingSystem1
 {
     public partial class Splash : Form
     {
+        DataClasses1DataContext db = new DataClasses1DataContext();
+
         public Splash()
         {
             InitializeComponent();

@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.Label label3;
-            this.textpassword = new System.Windows.Forms.TextBox();
             this.textemail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -39,6 +38,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.CheckbxShowPas = new System.Windows.Forms.CheckBox();
             this.btnclear = new System.Windows.Forms.Button();
+            this.textpassword = new System.Windows.Forms.TextBox();
             label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -56,25 +56,11 @@
             label3.Text = "Password: ";
             label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textpassword
-            // 
-            this.textpassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
-            this.textpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textpassword.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textpassword.ForeColor = System.Drawing.Color.Gray;
-            this.textpassword.Location = new System.Drawing.Point(29, 150);
-            this.textpassword.Margin = new System.Windows.Forms.Padding(4);
-            this.textpassword.Multiline = true;
-            this.textpassword.Name = "textpassword";
-            this.textpassword.PasswordChar = '*';
-            this.textpassword.Size = new System.Drawing.Size(212, 33);
-            this.textpassword.TabIndex = 3;
-            this.textpassword.TextChanged += new System.EventHandler(this.textpassword_TextChanged);
-            // 
             // textemail
             // 
             this.textemail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.textemail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textemail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textemail.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textemail.ForeColor = System.Drawing.Color.Gray;
             this.textemail.Location = new System.Drawing.Point(29, 88);
@@ -83,6 +69,8 @@
             this.textemail.Name = "textemail";
             this.textemail.Size = new System.Drawing.Size(212, 33);
             this.textemail.TabIndex = 5;
+            this.textemail.TextChanged += new System.EventHandler(this.textemail_TextChanged);
+            this.textemail.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textemail_KeyDown);
             // 
             // label1
             // 
@@ -157,6 +145,7 @@
             this.buttonsignup.TabIndex = 8;
             this.buttonsignup.Text = "SIGN UP";
             this.buttonsignup.UseVisualStyleBackColor = false;
+            this.buttonsignup.Click += new System.EventHandler(this.buttonsignup_Click);
             // 
             // label5
             // 
@@ -202,6 +191,23 @@
             this.btnclear.TabIndex = 8;
             this.btnclear.Text = "CLEAR";
             this.btnclear.UseVisualStyleBackColor = false;
+            this.btnclear.Click += new System.EventHandler(this.btnclear_Click);
+            // 
+            // textpassword
+            // 
+            this.textpassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textpassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textpassword.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textpassword.ForeColor = System.Drawing.Color.Gray;
+            this.textpassword.Location = new System.Drawing.Point(29, 150);
+            this.textpassword.Margin = new System.Windows.Forms.Padding(4);
+            this.textpassword.Multiline = true;
+            this.textpassword.Name = "textpassword";
+            this.textpassword.PasswordChar = '*';
+            this.textpassword.Size = new System.Drawing.Size(212, 33);
+            this.textpassword.TabIndex = 5;
+            this.textpassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textpassword_KeyDown);
             // 
             // Login
             // 
@@ -216,9 +222,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonlogin);
+            this.Controls.Add(this.textpassword);
             this.Controls.Add(this.textemail);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textpassword);
             this.Controls.Add(label3);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold);
@@ -237,13 +243,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button buttonlogin;
-        private System.Windows.Forms.TextBox textpassword;
         private System.Windows.Forms.TextBox textemail;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonsignup;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox CheckbxShowPas;
         private System.Windows.Forms.Button btnclear;
+        private System.Windows.Forms.TextBox textpassword;
     }
 }
 

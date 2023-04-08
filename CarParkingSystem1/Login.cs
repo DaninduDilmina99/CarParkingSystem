@@ -17,63 +17,67 @@ namespace CarParkingSystem1
         public Login()
         {
             InitializeComponent();
+            this.ActiveControl = textemail;
+            textemail.Focus();
+
         }
 
 
         private void buttonlogin_Click(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    if (textpassword.Text != null & textemail.Text != null)
-            //    {
-            //        var item = db.tblAccounts.Where(s => s.Password == textpassword.Text && s.Email == textemail.Text).FirstOrDefault();  
-            //        if (item != null)
-            //        {
-
-            //           Splash wc = new Splash();
-            //            wc.Show();
-            //            this.Hide();
-
-
-            //        }
-            //        else
-            //        {
-            //            MessageBox.Show("Your Password or Email not exits! Create Your Account...");
-            //        }
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Password or Email Incorrect!!, TRY AGAIN!");
-            //    }
-            //}catch(Exception ex)
-            //{
-            //    MessageBox.Show(ex.Message, "Error");
-            //}
-
-
-            if (textemail.Text == ""  || textpassword.Text =="")
+            try
             {
-                MessageBox.Show("Enter your Email and Password");
-            }
-            else
-            {
-                var item = db.tblAccounts.Where(s =>  s.Email == textemail.Text && s.Password == textpassword.Text).FirstOrDefault();
-
-                if (textemail.Text == "Admin" || textpassword.Text == "A123")
+                if (textemail.Text != null && textpassword.Text != null)
                 {
-                    
+                    var item = db.tblAccounts.Where(s => s.Email == textemail.Text &&  s.Password == textpassword.Text).FirstOrDefault();
+                    if (item != null)
+                    {
 
-                    Splash s = new Splash();
-                    s.Show();
-                    this.Hide();
+                        Splash wc = new Splash();
+                        wc.Show();
+                        this.Hide();
+
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Your Password or Email not exits! Create Your Account...");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Invalied Email or Password!, TRY AGAIN!!");
+                    MessageBox.Show("Password or Email Incorrect!!, TRY AGAIN!");
                 }
-                    
-
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
+
+
+            //if (textemail.Text == ""  || textpassword.Text =="")
+            //{
+            //    MessageBox.Show("Enter your Email and Password");
+            //}
+            //else
+            //{
+            //    var item = db.tblAccounts.Where(s =>  s.Email == textemail.Text && s.Password == textpassword.Text).FirstOrDefault();
+
+            //    if (textemail.Text == "Admin" || textpassword.Text == "A123")
+            //    {
+
+
+            //        Splash s = new Splash();
+            //        s.Show();
+            //        this.Hide();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Invalied Email or Password!, TRY AGAIN!!");
+            //    }
+
+
+            //}
 
 
 
@@ -111,7 +115,48 @@ namespace CarParkingSystem1
 
         private void CheckbxShowPas_CheckedChanged(object sender, EventArgs e)
         {
+            if (CheckbxShowPas.Checked)
+            {
+                textpassword.PasswordChar = '\0';
+            }
+            else
+            {
+                textpassword.PasswordChar = '*';
+            }
+        }
 
+        private void textemail_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void textemail_KeyDown(object sender, KeyEventArgs e)
+        {
+            //textemail.Focus();
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                textpassword.Focus();
+            }
+        }
+
+        private void textpassword_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void btnclear_Click(object sender, EventArgs e)
+        {
+            textemail.Text = "";
+            textpassword.Text = "";
+            textemail.Focus();
+        }
+
+        private void buttonsignup_Click(object sender, EventArgs e)
+        {
+            SignUp s = new SignUp();
+            s.Show();
+            this.Hide();
         }
     }
 }
