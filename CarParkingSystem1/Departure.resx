@@ -126,13 +126,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
+    <value>Nirmala UI, 11.25pt, style=Bold</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 13</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 16</value>
+    <value>99, 20</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -225,13 +225,13 @@
     <value>True</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
+    <value>Nirmala UI, 11.25pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 61</value>
+    <value>5, 50</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 16</value>
+    <value>63, 20</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -251,17 +251,54 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <metadata name="label6.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 77</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 18</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Rs. </value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="labelid1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="labelid1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
+    <value>Nirmala UI, 12.75pt, style=Bold</value>
   </data>
   <data name="labelid1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
+    <value>6, 12</value>
   </data>
   <data name="labelid1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 19</value>
+    <value>33, 23</value>
   </data>
   <data name="labelid1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -281,7 +318,6 @@
   <data name="&gt;&gt;labelid1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tableLayoutPanel1.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
     <value>Single</value>
   </data>
@@ -294,8 +330,11 @@
   <data name="button5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Nirmala UI, 12.75pt, style=Bold</value>
   </data>
   <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 323</value>
@@ -324,8 +363,11 @@
   <data name="button4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Nirmala UI, 12.75pt, style=Bold</value>
   </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 243</value>
@@ -354,8 +396,14 @@
   <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Nirmala UI, 12.75pt, style=Bold</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 163</value>
@@ -384,8 +432,11 @@
   <data name="button2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Nirmala UI, 12.75pt, style=Bold</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 83</value>
@@ -414,8 +465,14 @@
   <data name="button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Nirmala UI, 12.75pt, style=Bold</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -501,6 +558,24 @@
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="labelptype.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelptype.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="labelptype.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 16</value>
+  </data>
+  <data name="labelptype.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="labelptype.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelptype.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
   <data name="&gt;&gt;labelptype.Name" xml:space="preserve">
     <value>labelptype</value>
   </data>
@@ -513,6 +588,24 @@
   <data name="&gt;&gt;labelptype.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 47</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Park Time:</value>
+  </data>
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
   </data>
@@ -524,6 +617,24 @@
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="labelptime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelptime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="labelptime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 67</value>
+  </data>
+  <data name="labelptime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 18</value>
+  </data>
+  <data name="labelptime.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelptime.Text" xml:space="preserve">
+    <value>00:00</value>
   </data>
   <data name="&gt;&gt;labelptime.Name" xml:space="preserve">
     <value>labelptime</value>
@@ -561,11 +672,17 @@
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="comboBoxcarno.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="comboBoxcarno.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 9pt, style=Bold</value>
+  </data>
   <data name="comboBoxcarno.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 33</value>
   </data>
   <data name="comboBoxcarno.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
+    <value>121, 23</value>
   </data>
   <data name="comboBoxcarno.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -589,7 +706,7 @@
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="labelid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 51</value>
+    <value>113, 67</value>
   </data>
   <data name="labelid.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 20</value>
@@ -610,13 +727,13 @@
     <value>3</value>
   </data>
   <data name="textpamount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Nirmala UI, 12.75pt, style=Bold</value>
   </data>
   <data name="textpamount.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 253</value>
   </data>
   <data name="textpamount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 26</value>
+    <value>120, 30</value>
   </data>
   <data name="textpamount.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -664,13 +781,13 @@
     <value>True</value>
   </data>
   <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt, style=Bold</value>
+    <value>Nirmala UI, 14.25pt, style=Bold</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 215</value>
+    <value>4, 210</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 19</value>
+    <value>126, 25</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -694,13 +811,13 @@
     <value>True</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
+    <value>Nirmala UI, 11.25pt, style=Bold</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 67</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 16</value>
+    <value>102, 20</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -798,11 +915,14 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="textsearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 9pt, style=Bold</value>
+  </data>
   <data name="textsearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 80</value>
+    <value>8, 71</value>
   </data>
   <data name="textsearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 20</value>
+    <value>120, 23</value>
   </data>
   <data name="textsearch.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -878,42 +998,6 @@
   </data>
   <data name="&gt;&gt;lblpfee.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <metadata name="label6.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 77</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 18</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Rs. </value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -998,96 +1082,6 @@
   </data>
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,26.58371,Percent,73.41629" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="labelptype.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelptype.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
-  </data>
-  <data name="labelptype.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-4, 16</value>
-  </data>
-  <data name="labelptype.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 16</value>
-  </data>
-  <data name="labelptype.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="labelptype.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="&gt;&gt;labelptype.Name" xml:space="preserve">
-    <value>labelptype</value>
-  </data>
-  <data name="&gt;&gt;labelptype.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelptype.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;labelptype.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 47</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 16</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Park Time:</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="labelptime.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelptime.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9.75pt, style=Bold</value>
-  </data>
-  <data name="labelptime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 63</value>
-  </data>
-  <data name="labelptime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 16</value>
-  </data>
-  <data name="labelptime.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="labelptime.Text" xml:space="preserve">
-    <value>00:00</value>
-  </data>
-  <data name="&gt;&gt;labelptime.Name" xml:space="preserve">
-    <value>labelptime</value>
-  </data>
-  <data name="&gt;&gt;labelptime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelptime.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;labelptime.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

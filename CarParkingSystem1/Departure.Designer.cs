@@ -81,7 +81,7 @@
             // 
             resources.ApplyResources(label3, "label3");
             label3.BackColor = System.Drawing.Color.Transparent;
-            label3.ForeColor = System.Drawing.Color.Black;
+            label3.ForeColor = System.Drawing.Color.DimGray;
             label3.Name = "label3";
             // 
             // label7
@@ -102,18 +102,26 @@
             // 
             resources.ApplyResources(label1, "label1");
             label1.BackColor = System.Drawing.Color.Transparent;
-            label1.ForeColor = System.Drawing.Color.Black;
+            label1.ForeColor = System.Drawing.Color.DimGray;
             label1.Name = "label1";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(label6, "label6");
+            label6.BackColor = System.Drawing.Color.Transparent;
+            label6.ForeColor = System.Drawing.Color.Black;
+            label6.Name = "label6";
             // 
             // labelid1
             // 
             resources.ApplyResources(this.labelid1, "labelid1");
             this.labelid1.BackColor = System.Drawing.Color.Transparent;
-            this.labelid1.ForeColor = System.Drawing.Color.Black;
+            this.labelid1.ForeColor = System.Drawing.Color.DimGray;
             this.labelid1.Name = "labelid1";
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 0);
@@ -133,38 +141,48 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
             resources.ApplyResources(this.button5, "button5");
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Name = "button5";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button4.BackColor = System.Drawing.SystemColors.Highlight;
             resources.ApplyResources(this.button4, "button4");
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             resources.ApplyResources(this.button3, "button3");
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
             resources.ApplyResources(this.button2, "button2");
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
             resources.ApplyResources(this.button1, "button1");
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -210,27 +228,29 @@
             // 
             resources.ApplyResources(this.labelptype, "labelptype");
             this.labelptype.BackColor = System.Drawing.Color.Transparent;
-            this.labelptype.ForeColor = System.Drawing.Color.Black;
+            this.labelptype.ForeColor = System.Drawing.Color.DimGray;
             this.labelptype.Name = "labelptype";
             // 
             // label9
             // 
             resources.ApplyResources(this.label9, "label9");
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.ForeColor = System.Drawing.Color.DimGray;
             this.label9.Name = "label9";
             // 
             // labelptime
             // 
             resources.ApplyResources(this.labelptime, "labelptime");
             this.labelptime.BackColor = System.Drawing.Color.Transparent;
-            this.labelptime.ForeColor = System.Drawing.Color.Black;
+            this.labelptime.ForeColor = System.Drawing.Color.Gray;
             this.labelptime.Name = "labelptime";
             // 
             // comboBoxcarno
             // 
-            this.comboBoxcarno.FormattingEnabled = true;
+            this.comboBoxcarno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             resources.ApplyResources(this.comboBoxcarno, "comboBoxcarno");
+            this.comboBoxcarno.ForeColor = System.Drawing.Color.Gray;
+            this.comboBoxcarno.FormattingEnabled = true;
             this.comboBoxcarno.Name = "comboBoxcarno";
             this.comboBoxcarno.SelectedIndexChanged += new System.EventHandler(this.comboBoxcarno_SelectedIndexChanged);
             // 
@@ -241,7 +261,10 @@
             // 
             // textpamount
             // 
+            this.textpamount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textpamount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.textpamount, "textpamount");
+            this.textpamount.ForeColor = System.Drawing.Color.Gray;
             this.textpamount.Name = "textpamount";
             this.textpamount.TextChanged += new System.EventHandler(this.textpamount_TextChanged);
             // 
@@ -256,7 +279,7 @@
             // 
             resources.ApplyResources(this.label10, "label10");
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.ForeColor = System.Drawing.Color.DimGray;
             this.label10.Name = "label10";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
@@ -264,7 +287,7 @@
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.ForeColor = System.Drawing.Color.DimGray;
             this.label4.Name = "label4";
             // 
             // dataGridView1
@@ -299,7 +322,10 @@
             // 
             // textsearch
             // 
+            this.textsearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textsearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.textsearch, "textsearch");
+            this.textsearch.ForeColor = System.Drawing.Color.Gray;
             this.textsearch.Name = "textsearch";
             this.textsearch.TextChanged += new System.EventHandler(this.textsearch_TextChanged);
             // 
@@ -316,13 +342,6 @@
             this.lblpfee.BackColor = System.Drawing.Color.Transparent;
             this.lblpfee.ForeColor = System.Drawing.Color.Black;
             this.lblpfee.Name = "lblpfee";
-            // 
-            // label6
-            // 
-            resources.ApplyResources(label6, "label6");
-            label6.BackColor = System.Drawing.Color.Transparent;
-            label6.ForeColor = System.Drawing.Color.Black;
-            label6.Name = "label6";
             // 
             // Departure
             // 
