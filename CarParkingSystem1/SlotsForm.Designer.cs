@@ -62,11 +62,11 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = System.Drawing.Color.Transparent;
-            label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label3.ForeColor = System.Drawing.Color.Black;
             label3.Location = new System.Drawing.Point(5, 103);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(57, 16);
+            label3.Size = new System.Drawing.Size(65, 20);
             label3.TabIndex = 6;
             label3.Text = "Slot No:";
             label3.Click += new System.EventHandler(this.label3_Click);
@@ -75,16 +75,17 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = System.Drawing.Color.Transparent;
-            label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label1.ForeColor = System.Drawing.Color.Black;
-            label1.Location = new System.Drawing.Point(5, 49);
+            label1.Location = new System.Drawing.Point(5, 50);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(61, 16);
+            label1.Size = new System.Drawing.Size(63, 20);
             label1.TabIndex = 8;
             label1.Text = "Search: ";
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.PowderBlue;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.58371F));
@@ -124,7 +125,10 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(3, 323);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(222, 77);
@@ -135,9 +139,12 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button4.BackColor = System.Drawing.SystemColors.Highlight;
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(3, 243);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(222, 74);
@@ -148,9 +155,12 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(3, 163);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(222, 74);
@@ -161,9 +171,12 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(3, 83);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(222, 74);
@@ -174,9 +187,12 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(222, 74);
@@ -226,28 +242,36 @@
             // 
             // textlocation
             // 
+            this.textlocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textlocation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textlocation.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
+            this.textlocation.ForeColor = System.Drawing.Color.Gray;
             this.textlocation.Location = new System.Drawing.Point(8, 173);
             this.textlocation.Name = "textlocation";
-            this.textlocation.Size = new System.Drawing.Size(120, 20);
+            this.textlocation.Size = new System.Drawing.Size(120, 23);
             this.textlocation.TabIndex = 9;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(5, 154);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 16);
+            this.label4.Size = new System.Drawing.Size(73, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "Location:";
             // 
             // textsno
             // 
+            this.textsno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textsno.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textsno.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
+            this.textsno.ForeColor = System.Drawing.Color.Gray;
             this.textsno.Location = new System.Drawing.Point(8, 122);
             this.textsno.Name = "textsno";
-            this.textsno.Size = new System.Drawing.Size(120, 20);
+            this.textsno.Size = new System.Drawing.Size(120, 23);
             this.textsno.TabIndex = 7;
             // 
             // dataGridView1
@@ -288,9 +312,13 @@
             // 
             // textsearch
             // 
-            this.textsearch.Location = new System.Drawing.Point(8, 75);
+            this.textsearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textsearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textsearch.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
+            this.textsearch.ForeColor = System.Drawing.Color.Gray;
+            this.textsearch.Location = new System.Drawing.Point(8, 71);
             this.textsearch.Name = "textsearch";
-            this.textsearch.Size = new System.Drawing.Size(120, 20);
+            this.textsearch.Size = new System.Drawing.Size(120, 23);
             this.textsearch.TabIndex = 9;
             this.textsearch.TextChanged += new System.EventHandler(this.textsearch_TextChanged);
             // 
