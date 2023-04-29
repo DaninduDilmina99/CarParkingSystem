@@ -155,9 +155,9 @@ namespace CarParkingSystem1
 
         private void buttonsignup_Click(object sender, EventArgs e)
         {
-            SignUp s = new SignUp();
-            s.Show();
-            this.Hide();
+            //SignUp s = new SignUp();
+            //s.Show();
+            //this.Hide();
         }
     }
 }

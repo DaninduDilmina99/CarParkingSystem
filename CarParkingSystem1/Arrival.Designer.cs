@@ -77,11 +77,11 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = System.Drawing.Color.Transparent;
-            label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label3.ForeColor = System.Drawing.Color.Black;
-            label3.Location = new System.Drawing.Point(5, 13);
+            label3.Location = new System.Drawing.Point(5, 4);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(91, 16);
+            label3.Size = new System.Drawing.Size(102, 20);
             label3.TabIndex = 6;
             label3.Text = "Driver Name:";
             // 
@@ -89,11 +89,11 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = System.Drawing.Color.Transparent;
-            label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label1.ForeColor = System.Drawing.Color.Black;
-            label1.Location = new System.Drawing.Point(5, 61);
+            label1.Location = new System.Drawing.Point(5, 50);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(61, 16);
+            label1.Size = new System.Drawing.Size(63, 20);
             label1.TabIndex = 8;
             label1.Text = "Search: ";
             // 
@@ -101,11 +101,11 @@
             // 
             label5.AutoSize = true;
             label5.BackColor = System.Drawing.Color.Transparent;
-            label5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label5.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label5.ForeColor = System.Drawing.Color.Black;
-            label5.Location = new System.Drawing.Point(173, 61);
+            label5.Location = new System.Drawing.Point(173, 50);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(68, 18);
+            label5.Size = new System.Drawing.Size(65, 20);
             label5.TabIndex = 8;
             label5.Text = "Car No: ";
             // 
@@ -113,11 +113,11 @@
             // 
             label6.AutoSize = true;
             label6.BackColor = System.Drawing.Color.Transparent;
-            label6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label6.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label6.ForeColor = System.Drawing.Color.Black;
-            label6.Location = new System.Drawing.Point(311, 61);
+            label6.Location = new System.Drawing.Point(311, 50);
             label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(75, 18);
+            label6.Size = new System.Drawing.Size(69, 20);
             label6.TabIndex = 8;
             label6.Text = "Total In: ";
             // 
@@ -125,11 +125,11 @@
             // 
             label7.AutoSize = true;
             label7.BackColor = System.Drawing.Color.Transparent;
-            label7.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label7.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label7.ForeColor = System.Drawing.Color.Black;
-            label7.Location = new System.Drawing.Point(444, 61);
+            label7.Location = new System.Drawing.Point(444, 50);
             label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(109, 18);
+            label7.Size = new System.Drawing.Size(103, 20);
             label7.TabIndex = 8;
             label7.Text = "Arrival Time: ";
             // 
@@ -139,7 +139,7 @@
             this.lblcarno.BackColor = System.Drawing.Color.Transparent;
             this.lblcarno.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcarno.ForeColor = System.Drawing.Color.Black;
-            this.lblcarno.Location = new System.Drawing.Point(241, 61);
+            this.lblcarno.Location = new System.Drawing.Point(241, 50);
             this.lblcarno.Name = "lblcarno";
             this.lblcarno.Size = new System.Drawing.Size(22, 18);
             this.lblcarno.TabIndex = 8;
@@ -151,7 +151,7 @@
             this.lbltotal.BackColor = System.Drawing.Color.Transparent;
             this.lbltotal.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltotal.ForeColor = System.Drawing.Color.Black;
-            this.lbltotal.Location = new System.Drawing.Point(385, 61);
+            this.lbltotal.Location = new System.Drawing.Point(385, 50);
             this.lbltotal.Name = "lbltotal";
             this.lbltotal.Size = new System.Drawing.Size(22, 18);
             this.lbltotal.TabIndex = 8;
@@ -163,7 +163,7 @@
             this.lblarrivaltm.BackColor = System.Drawing.Color.Transparent;
             this.lblarrivaltm.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblarrivaltm.ForeColor = System.Drawing.Color.Black;
-            this.lblarrivaltm.Location = new System.Drawing.Point(549, 61);
+            this.lblarrivaltm.Location = new System.Drawing.Point(549, 50);
             this.lblarrivaltm.Name = "lblarrivaltm";
             this.lblarrivaltm.Size = new System.Drawing.Size(53, 18);
             this.lblarrivaltm.TabIndex = 8;
@@ -175,7 +175,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(281, 14);
+            this.label2.Location = new System.Drawing.Point(281, 5);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(148, 35);
             this.label2.TabIndex = 1;
@@ -185,19 +185,23 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(5, 67);
+            this.label4.Location = new System.Drawing.Point(5, 58);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 16);
+            this.label4.Size = new System.Drawing.Size(99, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "Car Number:";
             // 
             // textdriver
             // 
-            this.textdriver.Location = new System.Drawing.Point(8, 32);
+            this.textdriver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textdriver.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textdriver.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
+            this.textdriver.ForeColor = System.Drawing.Color.Gray;
+            this.textdriver.Location = new System.Drawing.Point(8, 25);
             this.textdriver.Name = "textdriver";
-            this.textdriver.Size = new System.Drawing.Size(120, 20);
+            this.textdriver.Size = new System.Drawing.Size(120, 23);
             this.textdriver.TabIndex = 7;
             // 
             // dataGridView1
@@ -216,7 +220,10 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(3, 323);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(222, 77);
@@ -227,9 +234,12 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button4.BackColor = System.Drawing.SystemColors.Highlight;
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(3, 243);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(222, 74);
@@ -240,9 +250,12 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(3, 163);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(222, 74);
@@ -253,9 +266,12 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(3, 83);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(222, 74);
@@ -275,21 +291,28 @@
             // 
             // textcar
             // 
-            this.textcar.Location = new System.Drawing.Point(8, 86);
+            this.textcar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textcar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textcar.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
+            this.textcar.ForeColor = System.Drawing.Color.Gray;
+            this.textcar.Location = new System.Drawing.Point(8, 79);
             this.textcar.Name = "textcar";
-            this.textcar.Size = new System.Drawing.Size(120, 20);
+            this.textcar.Size = new System.Drawing.Size(120, 23);
             this.textcar.TabIndex = 9;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(222, 74);
             this.button1.TabIndex = 1;
-            this.button1.Text = "ADD";
+            this.button1.Text = "ADD NOW";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -331,40 +354,50 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.ForeColor = System.Drawing.Color.Gray;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(9, 261);
+            this.comboBox1.Location = new System.Drawing.Point(9, 254);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 12;
             // 
             // checkedListBox1
             // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.White;
+            this.checkedListBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.checkedListBox1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkedListBox1.ForeColor = System.Drawing.Color.Black;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
             "Hourly",
             "Daily"});
-            this.checkedListBox1.Location = new System.Drawing.Point(9, 139);
+            this.checkedListBox1.Location = new System.Drawing.Point(9, 132);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(118, 34);
+            this.checkedListBox1.Size = new System.Drawing.Size(118, 38);
             this.checkedListBox1.TabIndex = 11;
             // 
             // textstime
             // 
-            this.textstime.Location = new System.Drawing.Point(9, 211);
+            this.textstime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textstime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textstime.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
+            this.textstime.ForeColor = System.Drawing.Color.Gray;
+            this.textstime.Location = new System.Drawing.Point(9, 204);
             this.textstime.Name = "textstime";
-            this.textstime.Size = new System.Drawing.Size(120, 20);
+            this.textstime.Size = new System.Drawing.Size(120, 23);
             this.textstime.TabIndex = 9;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(6, 242);
+            this.label10.Location = new System.Drawing.Point(6, 233);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(97, 16);
+            this.label10.Size = new System.Drawing.Size(102, 20);
             this.label10.TabIndex = 8;
             this.label10.Text = "Selected Slot:";
             // 
@@ -372,11 +405,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(6, 192);
+            this.label9.Location = new System.Drawing.Point(6, 183);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(75, 16);
+            this.label9.Size = new System.Drawing.Size(82, 20);
             this.label9.TabIndex = 8;
             this.label9.Text = "Stay Time:";
             // 
@@ -384,11 +417,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(5, 120);
+            this.label8.Location = new System.Drawing.Point(5, 111);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 16);
+            this.label8.Size = new System.Drawing.Size(134, 20);
             this.label8.TabIndex = 8;
             this.label8.Text = "Parking Category:";
             // 
@@ -411,10 +444,13 @@
             // 
             // textsearch
             // 
-            this.textsearch.ForeColor = System.Drawing.Color.White;
-            this.textsearch.Location = new System.Drawing.Point(8, 80);
+            this.textsearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textsearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textsearch.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
+            this.textsearch.ForeColor = System.Drawing.Color.Gray;
+            this.textsearch.Location = new System.Drawing.Point(8, 71);
             this.textsearch.Name = "textsearch";
-            this.textsearch.Size = new System.Drawing.Size(120, 20);
+            this.textsearch.Size = new System.Drawing.Size(120, 23);
             this.textsearch.TabIndex = 9;
             this.textsearch.TextChanged += new System.EventHandler(this.textsearch_TextChanged);
             // 
@@ -441,6 +477,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.PowderBlue;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.58371F));

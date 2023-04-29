@@ -81,7 +81,7 @@
             // 
             resources.ApplyResources(label3, "label3");
             label3.BackColor = System.Drawing.Color.Transparent;
-            label3.ForeColor = System.Drawing.Color.DimGray;
+            label3.ForeColor = System.Drawing.Color.Black;
             label3.Name = "label3";
             // 
             // label7
@@ -102,7 +102,7 @@
             // 
             resources.ApplyResources(label1, "label1");
             label1.BackColor = System.Drawing.Color.Transparent;
-            label1.ForeColor = System.Drawing.Color.DimGray;
+            label1.ForeColor = System.Drawing.Color.Black;
             label1.Name = "label1";
             // 
             // label6
@@ -116,12 +116,12 @@
             // 
             resources.ApplyResources(this.labelid1, "labelid1");
             this.labelid1.BackColor = System.Drawing.Color.Transparent;
-            this.labelid1.ForeColor = System.Drawing.Color.DimGray;
+            this.labelid1.ForeColor = System.Drawing.Color.Black;
             this.labelid1.Name = "labelid1";
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.PowderBlue;
             resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 0);
@@ -228,14 +228,14 @@
             // 
             resources.ApplyResources(this.labelptype, "labelptype");
             this.labelptype.BackColor = System.Drawing.Color.Transparent;
-            this.labelptype.ForeColor = System.Drawing.Color.DimGray;
+            this.labelptype.ForeColor = System.Drawing.Color.Black;
             this.labelptype.Name = "labelptype";
             // 
             // label9
             // 
             resources.ApplyResources(this.label9, "label9");
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.ForeColor = System.Drawing.Color.DimGray;
+            this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Name = "label9";
             // 
             // labelptime
@@ -279,7 +279,7 @@
             // 
             resources.ApplyResources(this.label10, "label10");
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.ForeColor = System.Drawing.Color.DimGray;
+            this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Name = "label10";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
@@ -287,7 +287,7 @@
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.ForeColor = System.Drawing.Color.DimGray;
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Name = "label4";
             // 
             // dataGridView1
