@@ -289,7 +289,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel2.BackColor = System.Drawing.Color.PowderBlue;
             this.panel2.Controls.Add(label8);
             this.panel2.Controls.Add(this.labeltype);
             this.panel2.Controls.Add(label5);
