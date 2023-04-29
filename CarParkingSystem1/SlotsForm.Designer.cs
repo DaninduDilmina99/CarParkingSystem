@@ -304,11 +304,11 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(230, 14);
+            this.label2.Location = new System.Drawing.Point(223, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(240, 35);
+            this.label2.Size = new System.Drawing.Size(295, 35);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Car Slot Details";
+            this.label2.Text = "CAR SLOT DETAILS";
             // 
             // textsearch
             // 
