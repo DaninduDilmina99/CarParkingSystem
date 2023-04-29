@@ -40,6 +40,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.labelentrytime = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.exit = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.labelamount = new System.Windows.Forms.Label();
             this.labeldtime = new System.Windows.Forms.Label();
@@ -51,8 +53,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.comboBoxcarno = new System.Windows.Forms.ComboBox();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.exit = new System.Windows.Forms.Button();
-            this.back = new System.Windows.Forms.Button();
             label3 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
@@ -83,12 +83,12 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = System.Drawing.Color.Transparent;
-            label1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label1.ForeColor = System.Drawing.Color.Black;
             label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            label1.Location = new System.Drawing.Point(279, 9);
+            label1.Location = new System.Drawing.Point(285, 16);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(69, 18);
+            label1.Size = new System.Drawing.Size(63, 20);
             label1.TabIndex = 8;
             label1.Text = "Search: ";
             // 
@@ -208,6 +208,34 @@
             this.panel1.Size = new System.Drawing.Size(878, 268);
             this.panel1.TabIndex = 0;
             // 
+            // exit
+            // 
+            this.exit.BackColor = System.Drawing.Color.Red;
+            this.exit.FlatAppearance.BorderSize = 0;
+            this.exit.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exit.ForeColor = System.Drawing.Color.White;
+            this.exit.Location = new System.Drawing.Point(780, 223);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(87, 35);
+            this.exit.TabIndex = 12;
+            this.exit.Text = "EXIT";
+            this.exit.UseVisualStyleBackColor = false;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Red;
+            this.back.FlatAppearance.BorderSize = 0;
+            this.back.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.ForeColor = System.Drawing.Color.White;
+            this.back.Location = new System.Drawing.Point(8, 223);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(87, 35);
+            this.back.TabIndex = 13;
+            this.back.Text = "BACK";
+            this.back.UseVisualStyleBackColor = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -321,22 +349,26 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button1.FlatAppearance.BorderSize = 0;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button1.Location = new System.Drawing.Point(490, 2);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(490, 6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 35);
             this.button1.TabIndex = 14;
-            this.button1.Text = "Print";
+            this.button1.Text = "PRINT";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBoxcarno
             // 
+            this.comboBoxcarno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.comboBoxcarno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxcarno.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.comboBoxcarno.FormattingEnabled = true;
-            this.comboBoxcarno.Location = new System.Drawing.Point(354, 9);
+            this.comboBoxcarno.Location = new System.Drawing.Point(354, 13);
             this.comboBoxcarno.Name = "comboBoxcarno";
-            this.comboBoxcarno.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxcarno.Size = new System.Drawing.Size(121, 23);
             this.comboBoxcarno.TabIndex = 13;
             this.comboBoxcarno.SelectedIndexChanged += new System.EventHandler(this.comboBoxcarno_SelectedIndexChanged);
             // 
@@ -350,30 +382,6 @@
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             this.printPreviewDialog1.Load += new System.EventHandler(this.printPreviewDialog1_Load);
-            // 
-            // exit
-            // 
-            this.exit.BackColor = System.Drawing.Color.Red;
-            this.exit.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit.Location = new System.Drawing.Point(780, 223);
-            this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(87, 35);
-            this.exit.TabIndex = 12;
-            this.exit.Text = "EXIT";
-            this.exit.UseVisualStyleBackColor = false;
-            this.exit.Click += new System.EventHandler(this.exit_Click);
-            // 
-            // back
-            // 
-            this.back.BackColor = System.Drawing.Color.Red;
-            this.back.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back.Location = new System.Drawing.Point(8, 223);
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(87, 35);
-            this.back.TabIndex = 13;
-            this.back.Text = "BACK";
-            this.back.UseVisualStyleBackColor = false;
-            this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // Invoice
             // 

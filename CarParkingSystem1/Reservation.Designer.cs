@@ -90,12 +90,12 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = System.Drawing.Color.Transparent;
-            label1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label1.ForeColor = System.Drawing.Color.Black;
             label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             label1.Location = new System.Drawing.Point(7, 47);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(69, 18);
+            label1.Size = new System.Drawing.Size(63, 20);
             label1.TabIndex = 8;
             label1.Text = "Search: ";
             // 
@@ -114,6 +114,7 @@
             // 
             // tableLayoutPanel2
             // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.PowderBlue;
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.panel1, 0, 1);
@@ -142,7 +143,10 @@
             // exit
             // 
             this.exit.BackColor = System.Drawing.Color.Red;
+            this.exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exit.FlatAppearance.BorderSize = 0;
             this.exit.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exit.ForeColor = System.Drawing.Color.White;
             this.exit.Location = new System.Drawing.Point(781, 250);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(87, 35);
@@ -154,7 +158,10 @@
             // back
             // 
             this.back.BackColor = System.Drawing.Color.Red;
+            this.back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.back.FlatAppearance.BorderSize = 0;
             this.back.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.ForeColor = System.Drawing.Color.White;
             this.back.Location = new System.Drawing.Point(9, 250);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(87, 35);
@@ -200,24 +207,30 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(229, 58);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(232, 58);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(87, 35);
+            this.button2.Size = new System.Drawing.Size(95, 35);
             this.button2.TabIndex = 10;
-            this.button2.Text = "Print List";
+            this.button2.Text = "PRINT LIST";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(136, 58);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 35);
+            this.button1.Size = new System.Drawing.Size(94, 35);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Invoice";
+            this.button1.Text = "INVOICE";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -236,9 +249,12 @@
             // 
             // textsearch
             // 
+            this.textsearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textsearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textsearch.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.textsearch.Location = new System.Drawing.Point(10, 66);
             this.textsearch.Name = "textsearch";
-            this.textsearch.Size = new System.Drawing.Size(120, 20);
+            this.textsearch.Size = new System.Drawing.Size(120, 23);
             this.textsearch.TabIndex = 9;
             this.textsearch.TextChanged += new System.EventHandler(this.textsearch_TextChanged);
             // 
@@ -325,12 +341,12 @@
             // 
             this.labelid1.AutoSize = true;
             this.labelid1.BackColor = System.Drawing.Color.Transparent;
-            this.labelid1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.labelid1.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelid1.ForeColor = System.Drawing.Color.Black;
             this.labelid1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelid1.Location = new System.Drawing.Point(6, 22);
             this.labelid1.Name = "labelid1";
-            this.labelid1.Size = new System.Drawing.Size(34, 19);
+            this.labelid1.Size = new System.Drawing.Size(37, 25);
             this.labelid1.TabIndex = 6;
             this.labelid1.Text = "ID:";
             // 
