@@ -62,6 +62,7 @@ namespace CarParkingSystem1
         {
             try
             {
+
                 if (comboBoxcarno.Text != null & labeldname.Text != null & labelptime.Text != null & labelptime.Text != null )
                 {
 
