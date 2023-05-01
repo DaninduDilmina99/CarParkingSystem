@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace CarParkingSystem1
 {
@@ -237,5 +238,14 @@ namespace CarParkingSystem1
             dataGridView1.DataSource = ld;
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelid_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

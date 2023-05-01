@@ -95,9 +95,9 @@
             this.label4.Location = new System.Drawing.Point(27, 65);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 17);
+            this.label4.Size = new System.Drawing.Size(83, 17);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Email: ";
+            this.label4.Text = "User Name: ";
             // 
             // buttonlogin
             // 

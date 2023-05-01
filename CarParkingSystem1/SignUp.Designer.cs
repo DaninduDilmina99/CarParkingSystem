@@ -142,6 +142,7 @@
             this.textemail.Name = "textemail";
             this.textemail.Size = new System.Drawing.Size(212, 33);
             this.textemail.TabIndex = 14;
+            this.textemail.TextChanged += new System.EventHandler(this.textemail_TextChanged);
             this.textemail.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textemail_KeyDown);
             // 
             // label4

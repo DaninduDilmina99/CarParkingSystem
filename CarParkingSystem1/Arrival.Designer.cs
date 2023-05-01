@@ -30,10 +30,8 @@
         {
             System.Windows.Forms.Label label3;
             System.Windows.Forms.Label label1;
-            System.Windows.Forms.Label label5;
             System.Windows.Forms.Label label6;
             System.Windows.Forms.Label label7;
-            this.lblcarno = new System.Windows.Forms.Label();
             this.lbltotal = new System.Windows.Forms.Label();
             this.lblarrivaltm = new System.Windows.Forms.Label();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
@@ -45,7 +43,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.labelid = new System.Windows.Forms.Label();
             this.textcar = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -58,11 +55,11 @@
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textsearch = new System.Windows.Forms.TextBox();
+            this.labelid = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             label3 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
-            label5 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
             label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -97,25 +94,13 @@
             label1.TabIndex = 8;
             label1.Text = "Search: ";
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = System.Drawing.Color.Transparent;
-            label5.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
-            label5.ForeColor = System.Drawing.Color.Black;
-            label5.Location = new System.Drawing.Point(173, 50);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(65, 20);
-            label5.TabIndex = 8;
-            label5.Text = "Car No: ";
-            // 
             // label6
             // 
             label6.AutoSize = true;
             label6.BackColor = System.Drawing.Color.Transparent;
             label6.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label6.ForeColor = System.Drawing.Color.Black;
-            label6.Location = new System.Drawing.Point(311, 50);
+            label6.Location = new System.Drawing.Point(201, 50);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(69, 20);
             label6.TabIndex = 8;
@@ -127,23 +112,11 @@
             label7.BackColor = System.Drawing.Color.Transparent;
             label7.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold);
             label7.ForeColor = System.Drawing.Color.Black;
-            label7.Location = new System.Drawing.Point(444, 50);
+            label7.Location = new System.Drawing.Point(334, 50);
             label7.Name = "label7";
             label7.Size = new System.Drawing.Size(103, 20);
             label7.TabIndex = 8;
             label7.Text = "Arrival Time: ";
-            // 
-            // lblcarno
-            // 
-            this.lblcarno.AutoSize = true;
-            this.lblcarno.BackColor = System.Drawing.Color.Transparent;
-            this.lblcarno.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcarno.ForeColor = System.Drawing.Color.Black;
-            this.lblcarno.Location = new System.Drawing.Point(241, 50);
-            this.lblcarno.Name = "lblcarno";
-            this.lblcarno.Size = new System.Drawing.Size(22, 18);
-            this.lblcarno.TabIndex = 8;
-            this.lblcarno.Text = "0 ";
             // 
             // lbltotal
             // 
@@ -151,7 +124,7 @@
             this.lbltotal.BackColor = System.Drawing.Color.Transparent;
             this.lbltotal.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltotal.ForeColor = System.Drawing.Color.Black;
-            this.lbltotal.Location = new System.Drawing.Point(385, 50);
+            this.lbltotal.Location = new System.Drawing.Point(276, 52);
             this.lbltotal.Name = "lbltotal";
             this.lbltotal.Size = new System.Drawing.Size(22, 18);
             this.lbltotal.TabIndex = 8;
@@ -163,7 +136,7 @@
             this.lblarrivaltm.BackColor = System.Drawing.Color.Transparent;
             this.lblarrivaltm.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblarrivaltm.ForeColor = System.Drawing.Color.Black;
-            this.lblarrivaltm.Location = new System.Drawing.Point(549, 50);
+            this.lblarrivaltm.Location = new System.Drawing.Point(439, 50);
             this.lblarrivaltm.Name = "lblarrivaltm";
             this.lblarrivaltm.Size = new System.Drawing.Size(53, 18);
             this.lblarrivaltm.TabIndex = 8;
@@ -228,7 +201,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(222, 77);
             this.button5.TabIndex = 5;
-            this.button5.Text = "EXIT";
+            this.button5.Text = "BACK";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -280,15 +253,6 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // labelid
-            // 
-            this.labelid.AutoSize = true;
-            this.labelid.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelid.Location = new System.Drawing.Point(161, 51);
-            this.labelid.Name = "labelid";
-            this.labelid.Size = new System.Drawing.Size(0, 20);
-            this.labelid.TabIndex = 10;
-            // 
             // textcar
             // 
             this.textcar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
@@ -336,7 +300,6 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.checkedListBox1);
-            this.panel1.Controls.Add(this.labelid);
             this.panel1.Controls.Add(this.textstime);
             this.panel1.Controls.Add(this.textcar);
             this.panel1.Controls.Add(this.label10);
@@ -351,6 +314,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(635, 289);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // comboBox1
             // 
@@ -430,12 +394,11 @@
             // 
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.textsearch);
+            this.panel2.Controls.Add(this.labelid);
             this.panel2.Controls.Add(this.lbltotal);
             this.panel2.Controls.Add(this.lblarrivaltm);
-            this.panel2.Controls.Add(this.lblcarno);
             this.panel2.Controls.Add(label6);
             this.panel2.Controls.Add(label7);
-            this.panel2.Controls.Add(label5);
             this.panel2.Controls.Add(label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
@@ -454,6 +417,16 @@
             this.textsearch.Size = new System.Drawing.Size(120, 23);
             this.textsearch.TabIndex = 9;
             this.textsearch.TextChanged += new System.EventHandler(this.textsearch_TextChanged);
+            // 
+            // labelid
+            // 
+            this.labelid.AutoSize = true;
+            this.labelid.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelid.Location = new System.Drawing.Point(7, 5);
+            this.labelid.Name = "labelid";
+            this.labelid.Size = new System.Drawing.Size(0, 20);
+            this.labelid.TabIndex = 10;
+            this.labelid.Click += new System.EventHandler(this.labelid_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -528,7 +501,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label labelid;
         private System.Windows.Forms.TextBox textcar;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
@@ -542,9 +514,9 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lbltotal;
-        private System.Windows.Forms.Label lblcarno;
         private System.Windows.Forms.Label lblarrivaltm;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelid;
     }
 }

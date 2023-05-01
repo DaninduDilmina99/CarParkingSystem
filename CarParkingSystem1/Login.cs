@@ -22,6 +22,8 @@ namespace CarParkingSystem1
 
         }
 
+        //Using "User Name" insted of "Email" (Email=>User Name) bt i dont change text field of textmail
+
 
         private void buttonlogin_Click(object sender, EventArgs e)
         {
@@ -29,7 +31,7 @@ namespace CarParkingSystem1
             {
                 if (textemail.Text != null && textpassword.Text != null)
                 {
-                    var item = db.tblAccounts.Where(s => s.Email == textemail.Text &&  s.Password == textpassword.Text).FirstOrDefault();
+                    var item = db.tblAccounts.Where(s => s.UserName == textemail.Text &&  s.Password == textpassword.Text).FirstOrDefault();
                     if (item != null)
                     {
 
@@ -41,13 +43,13 @@ namespace CarParkingSystem1
                     }
                     else
                     {
-                        MessageBox.Show("Your Password or Email not exits! Create Your Account...");
+                        MessageBox.Show("Your Password or User Name not exits! Create Your Account...");
 
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Password or Email Incorrect!!, TRY AGAIN!");
+                    MessageBox.Show("Password or User Name Incorrect!!, TRY AGAIN!");
                 }
             }
             catch (Exception ex)
